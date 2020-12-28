@@ -6,7 +6,9 @@ import (
 	"github.com/gocolly/colly"
 	"log"
 	"os"
+	"path/filepath"
 	"strings"
+	"voz/global"
 )
 
 const (
@@ -39,14 +41,23 @@ func createFile(name string) *os.File {
 	return f
 }
 func main() {
+	global.FetchEnvironmentVariables()
+	visitAndCollectFromURL(f17, "title")
+	fmt.Println("done")
+
+}
+
+func visitAndCollectFromURL(URL string, fileName string) {
 	c := colly.NewCollector()
 
-	title := createFile("title")
-	defer title.Close()
+	basePath := "./text"
+	path := filepath.Join(basePath, fileName)
+	f := createFile(path)
+	defer f.Close()
 
 	var titles []string
 	c.OnHTML(threadTitle, func(e *colly.HTMLElement) {
-		_, err := title.Write([]byte(e.Text))
+		_, err := f.Write([]byte(e.Text))
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -59,9 +70,7 @@ func main() {
 		}
 		color.Red("%v", thread)
 	})
-	_ = c.Visit(f17)
-	fmt.Println("done")
-
+	_ = c.Visit(URL)
 }
 
 //fields return splitted array of chars if function satisfy
