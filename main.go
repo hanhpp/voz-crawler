@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"voz/entity"
 	"voz/global"
-	"voz/model"
 )
 
 func createFile(name string) *os.File {
@@ -23,6 +23,8 @@ func createFile(name string) *os.File {
 }
 func main() {
 	global.FetchEnvironmentVariables()
+	entity.InitializeDatabaseConnection()
+
 	visitAndCollectFromURL(global.F17, "title")
 	fmt.Println("done")
 
@@ -44,7 +46,7 @@ func visitAndCollectFromURL(URL string, fileName string) {
 		}
 		text := standardizeSpaces(e.Text)
 		titles = append(titles, text)
-		thread := &model.Thread{}
+		thread := &entity.Thread{}
 		err = e.Unmarshal(thread)
 		if err != nil {
 			log.Fatal(err)
@@ -54,7 +56,8 @@ func visitAndCollectFromURL(URL string, fileName string) {
 	_ = c.Visit(URL)
 }
 
-//fields return splitted array of chars if function satisfy
+//standardizeSpaces remove redundancies spaces
 func standardizeSpaces(s string) string {
+	//fields return splitted array of chars if function satisfy
 	return strings.Join(strings.Fields(s), " ")
 }

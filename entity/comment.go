@@ -1,9 +1,4 @@
-package model
-
-type Thread struct {
-	Title string `json:"title,omitempty"`
-	Link  string `json:"link,omitempty"`
-}
+package entity
 
 type Comment struct {
 	ThreadId uint64 `json:"thread_id,omitempty"`
