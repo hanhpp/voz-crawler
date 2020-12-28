@@ -9,27 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 	"voz/global"
+	"voz/model"
 )
-
-const (
-	f17         = "https://voz.vn/f/chuyen-tro-linh-tinh.17/"
-	threadLink  = ".structItem-minor .structItem-parts"
-	threadTitle = ".structItem-title"
-)
-
-//filterSpace := "([A-Za-z0-9àáãạảăắằẳẵặâấầẩẫậèéẹẻẽêềếểễệđìíĩỉịòóõọỏôốồổỗộơớờởỡợùúũụủưứừửữựỳỵỷỹýÀÁÃẠẢĂẮẰẲẴẶÂẤẦẨẪẬÈÉẸẺẼÊỀẾỂỄỆĐÌÍĨỈỊÒÓÕỌỎÔỐỒỔỖỘƠỚỜỞỠỢÙÚŨỤỦƯỨỪỬỮỰỲỴỶỸÝ.,])\\w+"
-//for i, t := range titles {
-//	match, err := regexp.MatchString(filterSpace, t)
-//	if err != nil {
-//		log.Fatal(err)
-//	}
-//	fmt.Println(match)
-//}
-
-type Thread struct {
-	Title string `selector:"a"`
-	Link  string `selector:"a[href]" attr:"href"`
-}
 
 func createFile(name string) *os.File {
 	f, err := os.Create(name + ".txt")
@@ -42,7 +23,7 @@ func createFile(name string) *os.File {
 }
 func main() {
 	global.FetchEnvironmentVariables()
-	visitAndCollectFromURL(f17, "title")
+	visitAndCollectFromURL(global.F17, "title")
 	fmt.Println("done")
 
 }
@@ -56,14 +37,14 @@ func visitAndCollectFromURL(URL string, fileName string) {
 	defer f.Close()
 
 	var titles []string
-	c.OnHTML(threadTitle, func(e *colly.HTMLElement) {
+	c.OnHTML(global.ThreadTitle, func(e *colly.HTMLElement) {
 		_, err := f.Write([]byte(e.Text))
 		if err != nil {
 			log.Fatal(err)
 		}
 		text := standardizeSpaces(e.Text)
 		titles = append(titles, text)
-		thread := &Thread{}
+		thread := &model.Thread{}
 		err = e.Unmarshal(thread)
 		if err != nil {
 			log.Fatal(err)
