@@ -18,6 +18,6 @@ func main() {
 	wg.Add(1)
 	cronjob.RunCronjob()
 	wg.Wait()
-	//VisitAndCollectFromURL(global.F17, "title")
+	//VisitAndCollectThreadsFromURL(global.F17, "title")
 	fmt.Println("done")
 }

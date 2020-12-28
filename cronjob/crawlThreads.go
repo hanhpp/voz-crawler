@@ -28,12 +28,12 @@ func CrawlThreads(url string, fileName string) {
 	)
 	_, _ = c.AddFunc("@every 0h0m10s", func() { // 23h59m GMT +8
 		config.GetLogger().Info("Running crawler...")
-		VisitAndCollectFromURL(url, fileName)
+		VisitAndCollectThreadsFromURL(url, fileName)
 	})
 	c.Start()
 }
 
-func VisitAndCollectFromURL(URL string, fileName string) {
+func VisitAndCollectThreadsFromURL(URL string, fileName string) {
 	c := colly.NewCollector()
 
 	basePath := "./text"
