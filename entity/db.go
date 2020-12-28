@@ -9,6 +9,7 @@ import (
 	"time"
 	"voz/config"
 	"voz/global"
+	"voz/model"
 )
 
 var dBInstance *gorm.DB
@@ -27,8 +28,8 @@ func InitializeDatabaseConnection() {
 	// Connect to Database
 	var err error
 
-	logLevel := logger.Error
-	//logLevel := logger.Silent
+	//logLevel := logger.Error
+	logLevel := logger.Silent
 	dBInstance, err = gorm.Open(postgres.Open(global.Config.PostgresConnectionString), &gorm.Config{
 		Logger: logger.Default.LogMode(logLevel),
 	})
@@ -49,9 +50,9 @@ func ProcessMigration() {
 
 func DBAutoMigration() {
 	logger := config.GetLogger()
-	err := GetDBInstance().Debug().AutoMigrate(
-		&Thread{},
-		&Comment{},
+	err := GetDBInstance().AutoMigrate(
+		&model.Thread{},
+		&model.Comment{},
 	)
 	if err != nil {
 		logger.Errorln(err)
