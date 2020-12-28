@@ -4,5 +4,5 @@ import "voz/global"
 
 func RunCronjob() {
 	//CrawlThreads(global.F17, "thread")
-	CrawlComments(global.TestThread, "comment")
+	CrawlComments(global.TestThread, "comment", 196903)
 }

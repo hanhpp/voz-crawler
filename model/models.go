@@ -1,7 +1,5 @@
 package model
 
-import "gorm.io/gorm"
-
 type Thread struct {
 	Title    string `json:"title,omitempty"`
 	Link     string `json:"link,omitempty"`
@@ -10,8 +8,10 @@ type Thread struct {
 }
 
 type Comment struct {
-	ThreadId uint64 `json:"thread_id,omitempty"`
-	UserName string `json:"user_name,omitempty"`
-	Text     string `json:"text,omitempty"`
-	gorm.Model
+	ThreadId   uint64 `json:"thread_id,omitempty"`
+	CommentId  uint64 `json:"post_id,omitempty" gorm:"primary_key;unique;not null;index"`
+	Text       string `json:"text,omitempty"`
+	UserName   string `json:"user_name,omitempty"`
+	TimePosted string `json:"time_posted,omitempty"`
+	BaseModel
 }

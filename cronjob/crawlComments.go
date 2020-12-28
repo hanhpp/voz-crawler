@@ -1,17 +1,22 @@
 package cronjob
 
 import (
+	"errors"
 	"github.com/fatih/color"
 	"github.com/gocolly/colly"
+	"gorm.io/gorm"
 	"log"
 	"path/filepath"
+	"regexp"
+	"strconv"
 	"strings"
 	"voz/config"
 	"voz/entity"
 	"voz/global"
+	"voz/model"
 )
 
-func CrawlComments(url string, fileName string) {
+func CrawlComments(url string, fileName string, threadID uint64) {
 	color.Green("cron job: Crawling thread from %s\nSaving into file /text/%s.txt", url, fileName)
 	//skipLogger := config.SkipLogger{}
 	//c := cron.New(
@@ -20,12 +25,12 @@ func CrawlComments(url string, fileName string) {
 	//)
 	//_, _ = c.AddFunc("@every 0h0m10s", func() { // 23h59m GMT +8
 	//	config.GetLogger().Info("Running crawler...")
-	VisitAndCollectCmtsFromURL(url, fileName)
+	VisitAndCollectCmtsFromURL(url, fileName, threadID)
 	//})
 	//c.Start()
 }
 
-func VisitAndCollectCmtsFromURL(URL string, fileName string) {
+func VisitAndCollectCmtsFromURL(URL string, fileName string, threadID uint64) {
 	c := colly.NewCollector()
 
 	basePath := "./text"
@@ -41,7 +46,7 @@ func VisitAndCollectCmtsFromURL(URL string, fileName string) {
 			log.Fatal(err)
 		}
 		//color.Cyan("%+v", e)
-		err = handleCmtsContent(e, titles)
+		err = handleCmtsContent(e, titles, threadID)
 		logger := config.GetLogger()
 		if err != nil {
 			logger.Errorln(err)
@@ -50,41 +55,75 @@ func VisitAndCollectCmtsFromURL(URL string, fileName string) {
 	_ = c.Visit(URL)
 }
 
-func handleCmtsContent(e *colly.HTMLElement, titles []string) error {
-	//logger := config.GetLogger()
+func handleCmtsContent(e *colly.HTMLElement, titles []string, threadID uint64) error {
+	logger := config.GetLogger()
 	text := standardizeSpaces(e.Text)
 	titles = append(titles, text)
+	localCmt := ProcessDesc(e, threadID)
+
+	existedCmt := &model.Comment{}
+	err := entity.GetDBInstance().Where("comment_id = ?", localCmt.CommentId).First(&existedCmt).Error
+	if errors.Is(err, gorm.ErrRecordNotFound) {
+		//Only create when there is no such record with same threadID
+		err = entity.GetDBInstance().Create(&localCmt).Error
+		if err != nil {
+			logger.Errorln(err)
+			return err
+		}
+		color.Green("Comment %d by user %s saved success!", localCmt.CommentId, localCmt.UserName)
+		color.Blue("Content [%s]", localCmt.Text)
+	} else {
+		color.Red("Comment %d already exists!", localCmt.CommentId)
+		//color.Red("Link : %s", cmt.Link)
+	}
+	return nil
+}
+
+func GetCmtId(cmtId string) string {
+	r := regexp.MustCompile(global.CommentIDRegex)
+	res := r.FindAllString(cmtId, -1)
+	if len(res) == 1 {
+		return res[0]
+	} else {
+		color.Red("Too many matched %+v", res)
+		return ""
+	}
+}
+func ProcessDesc(e *colly.HTMLElement, threadId uint64) *model.Comment {
 	cmt := &entity.Comment{}
+	logger := config.GetLogger()
 	err := e.Unmarshal(cmt)
 	if err != nil {
 		log.Fatal(err)
 	}
 	cmt.Desc = e.Attr(global.CommentNamespace)
-	color.Yellow("%+v", cmt)
-	ProcessDesc(cmt)
-	//newThread := &model.Comment{
-	//}
-	//color.Red("%v", newThread)
-	//localThread := &model.Comment{}
-	//err = entity.GetDBInstance().Where("thread_id = ?", threadId).First(&localThread).Error
-	//if errors.Is(err, gorm.ErrRecordNotFound) {
-	//	//Only create when there is no such record with same threadID
-	//	err = entity.GetDBInstance().Create(&newThread).Error
-	//	if err != nil {
-	//		logger.Errorln(err)
-	//		return err
-	//	}
-	//	color.Cyan("Thread %d saved success %s\nTitle : %s", threadId, cmt.Link, cmt.Title)
-	//} else {
-	//	color.Red("Thread %d already exists!", threadId)
-	//	color.Red("Link : %s", cmt.Link)
-	//}
-	return nil
-}
-
-func ProcessDesc(cmt *entity.Comment) {
+	cmt.CommentId = e.Attr(global.CommentId)
+	cmtIdStr := GetCmtId(cmt.CommentId)
+	cmtId, err := strconv.ParseUint(cmtIdStr, 10, 64)
+	if err != nil {
+		logger.Errorln(err)
+		return nil
+	}
 	desc := cmt.Desc
-	color.Red("Desc : %s", desc)
+	//color.Red("Desc : %s", desc)
 	res := strings.Split(desc, "·")
-	color.Cyan("Res %+v", res)
+	for i, v := range res {
+		res[i] = strings.TrimSpace(v)
+	}
+	//color.Cyan("Res %+v", res)
+	if len(res) == 2 {
+		cmt.Name = res[0]
+		cmt.TimePosted = res[1]
+	} else {
+		color.Red("Res len is not 2 but %d", len(res))
+	}
+
+	localCmt := &model.Comment{
+		ThreadId:   threadId,
+		UserName:   cmt.Name,
+		Text:       cmt.Text,
+		TimePosted: cmt.TimePosted,
+		CommentId:  cmtId,
+	}
+	return localCmt
 }
