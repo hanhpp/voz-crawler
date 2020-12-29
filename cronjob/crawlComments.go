@@ -13,29 +13,24 @@ import (
 	"voz/entity"
 	"voz/global"
 	"voz/model"
+	"voz/utils"
 )
 
-func CrawlComments(url string, fileName string, threadID uint64) {
-	color.Green("cron job: Crawling comments from %s", url)
-	color.Green("Saving into file /text/%s.txt", fileName)
-	//skipLogger := config.SkipLogger{}
-	//c := cron.New(
-	//	cron.WithLocation(time.UTC),
-	//	cron.WithChain(cron.SkipIfStillRunning(skipLogger)),
-	//)
-	//_, _ = c.AddFunc("@every 0h0m10s", func() { // 23h59m GMT +8
-	//	config.GetLogger().Info("Running crawler...")
-	VisitAndCollectCmtsFromURL(url, fileName, threadID)
-	//})
-	//c.Start()
+func CrawlComments(url string, threadID uint64) {
+	color.Yellow("cron job: Crawling comments from %s", url)
+	//Let's crawl from multiple pages
+	for i := uint64(2); i < 5; i++ {
+		newURL := utils.AddPageSuffix(url, i)
+		VisitAndCollectCommentFromURL(newURL, threadID, i)
+	}
 }
 
-func VisitAndCollectCmtsFromURL(URL string, fileName string, threadID uint64) {
+func VisitAndCollectCommentFromURL(URL string, threadID uint64, page uint64) {
 	c := colly.NewCollector()
 
 	var titles []string
 	c.OnHTML(global.CommentStruct, func(e *colly.HTMLElement) {
-		err := handleCmtsContent(e, titles, threadID)
+		err := handleCommentContent(e, titles, threadID, page)
 		logger := config.GetLogger()
 		if err != nil {
 			logger.Errorln(err)
@@ -44,11 +39,11 @@ func VisitAndCollectCmtsFromURL(URL string, fileName string, threadID uint64) {
 	_ = c.Visit(URL)
 }
 
-func handleCmtsContent(e *colly.HTMLElement, titles []string, threadID uint64) error {
+func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64, page uint64) error {
 	logger := config.GetLogger()
 	text := standardizeSpaces(e.Text)
 	titles = append(titles, text)
-	localCmt := ProcessDesc(e, threadID)
+	localCmt := ProcessDesc(e, threadID, page)
 
 	existedCmt := &model.Comment{}
 	err := entity.GetDBInstance().Where("comment_id = ?", localCmt.CommentId).First(&existedCmt).Error
@@ -79,7 +74,8 @@ func GetCmtId(cmtId string) string {
 		return ""
 	}
 }
-func ProcessDesc(e *colly.HTMLElement, threadId uint64) *model.Comment {
+
+func ProcessDesc(e *colly.HTMLElement, threadId uint64, page uint64) *model.Comment {
 	cmt := &entity.Comment{}
 	logger := config.GetLogger()
 	err := e.Unmarshal(cmt)
@@ -95,12 +91,10 @@ func ProcessDesc(e *colly.HTMLElement, threadId uint64) *model.Comment {
 		return nil
 	}
 	desc := cmt.Desc
-	//color.Red("Desc : %s", desc)
 	res := strings.Split(desc, "·")
 	for i, v := range res {
 		res[i] = strings.TrimSpace(v)
 	}
-	//color.Cyan("Res %+v", res)
 	if len(res) == 2 {
 		cmt.Name = res[0]
 		cmt.TimePosted = res[1]
@@ -114,6 +108,7 @@ func ProcessDesc(e *colly.HTMLElement, threadId uint64) *model.Comment {
 		Text:       cmt.Text,
 		TimePosted: cmt.TimePosted,
 		CommentId:  cmtId,
+		Page:       page,
 	}
 	return localCmt
 }

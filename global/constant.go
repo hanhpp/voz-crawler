@@ -33,4 +33,6 @@ var (
 	F17_P5 = utils.AddPageSuffix(F17, 5)
 	F17_P6 = utils.AddPageSuffix(F17, 6)
 	F17_P7 = utils.AddPageSuffix(F17, 7)
+	F17_Pages = []string{F17_P2,F17_P3,F17_P4,F17_P5,F17_P6,F17_P7}
 )
+

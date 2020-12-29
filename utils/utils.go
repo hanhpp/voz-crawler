@@ -1,16 +1,22 @@
 package utils
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 //"https://voz.vn/f/chuyen-tro-linh-tinh.17"
 //https://voz.vn/f/chuyen-tro-linh-tinh.17/page-2
 func AddPageSuffix(URL string, page uint64) string {
+	result := ""
 	if page <= 1 {
-		return URL
+		result = URL
+		return result
 	}
 	if strings.HasSuffix(URL, "/") {
-		return URL + "page-" + string(page)
+		result = URL + "page-" + fmt.Sprintf("%d",page)
 	} else {
-		return URL + "/page-" + string(page)
+		result = URL + "/page-" + fmt.Sprintf("%d",page)
 	}
+	return result
 }

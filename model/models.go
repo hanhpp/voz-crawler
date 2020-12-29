@@ -18,5 +18,6 @@ type Comment struct {
 	Text       string `json:"text,omitempty"`
 	UserName   string `json:"user_name,omitempty"`
 	TimePosted string `json:"time_posted,omitempty"`
+	Page uint64 `json:"page,omitempty"`
 	BaseModel
 }

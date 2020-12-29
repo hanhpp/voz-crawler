@@ -19,7 +19,7 @@ import (
 )
 
 func CrawlThreads(url string, fileName string) {
-	color.Green("cron job: Crawling thread from %s\nSaving into file /text/%s.txt", url, fileName)
+	color.Green("Crawling thread from [%s]", url)
 	skipLogger := config.SkipLogger{}
 	c := cron.New(
 		cron.WithLocation(time.UTC),
@@ -78,8 +78,7 @@ func handleThreadContent(e *colly.HTMLElement, titles []string,parentURL string)
 		//Push it to our link queue
 		Threads <- newThread
 	} else {
-		//color.Red("Thread %d already exists!", threadId)
-		//color.Red("Link : %s", thread.Link)
+		logger.WithField(" threadId", threadId).WithField("thread.Link",thread.Link).Info("Thread already exists!")
 	}
 	return nil
 }
