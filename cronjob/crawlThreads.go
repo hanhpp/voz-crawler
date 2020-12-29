@@ -83,6 +83,8 @@ func handleThreadContent(e *colly.HTMLElement, titles []string) error {
 			return err
 		}
 		color.Cyan("Thread %d saved success %s\nTitle : %s", threadId, thread.Link, thread.Title)
+		Threads <- newThread
+		//Push it to our link queue
 	} else {
 		color.Red("Thread %d already exists!", threadId)
 		color.Red("Link : %s", thread.Link)

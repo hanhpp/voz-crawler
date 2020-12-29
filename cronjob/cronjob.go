@@ -1,8 +1,18 @@
 package cronjob
 
-import "voz/global"
+import (
+	"github.com/fatih/color"
+	"voz/global"
+	"voz/model"
+)
+
+var Threads = make(chan *model.Thread)
 
 func RunCronjob() {
-	//CrawlThreads(global.F17, "thread")
-	CrawlComments(global.TestThread, "comment", 196903)
+	go CrawlThreads(global.F17, "thread")
+	select {
+	case thread := <-Threads:
+		color.Red("Received %s from Thread queue", thread.Link)
+		go CrawlComments(thread.Link, thread.Title, thread.ThreadId)
+	}
 }

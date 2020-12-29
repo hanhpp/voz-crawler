@@ -17,7 +17,8 @@ import (
 )
 
 func CrawlComments(url string, fileName string, threadID uint64) {
-	color.Green("cron job: Crawling thread from %s\nSaving into file /text/%s.txt", url, fileName)
+	color.Green("cron job: Crawling comments from %s",url)
+	color.Green("Saving into file /text/%s.txt", fileName)
 	//skipLogger := config.SkipLogger{}
 	//c := cron.New(
 	//	cron.WithLocation(time.UTC),
@@ -71,9 +72,10 @@ func handleCmtsContent(e *colly.HTMLElement, titles []string, threadID uint64) e
 			return err
 		}
 		color.Green("Comment %d by user %s saved success!", localCmt.CommentId, localCmt.UserName)
-		color.Blue("Content [%s]", localCmt.Text)
+		//color.Blue("Content [%s]", localCmt.Text)
 	} else {
-		color.Red("Comment %d already exists!", localCmt.CommentId)
+		color.Red("Comment %d by user %s already exists!", localCmt.CommentId,localCmt.UserName)
+		//color.Red("Content: \n%s",localCmt.Text)
 		//color.Red("Link : %s", cmt.Link)
 	}
 	return nil

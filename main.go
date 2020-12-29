@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"github.com/fatih/color"
 	"sync"
 	"voz/cronjob"
 
@@ -14,10 +14,9 @@ func main() {
 	entity.InitializeDatabaseConnection()
 	entity.ProcessMigration()
 
+	color.Blue("Starting voz crawler version 1.0")
 	var wg sync.WaitGroup
 	wg.Add(1)
 	cronjob.RunCronjob()
 	wg.Wait()
-	//VisitAndCollectThreadsFromURL(global.F17, "title")
-	fmt.Println("done")
 }
