@@ -60,7 +60,7 @@ func handleThreadContent(e *colly.HTMLElement, titles []string, parentURL string
 	logger := config.GetLogger()
 	text := standardizeSpaces(e.Text)
 	titles = append(titles, text)
-	color.Blue("%+v", e)
+	//color.Blue("%+v", e)
 	thread := &entity.Thread{}
 	err := e.Unmarshal(thread)
 	if err != nil {
@@ -89,6 +89,7 @@ func handleThreadContent(e *colly.HTMLElement, titles []string, parentURL string
 		color.Cyan("Thread %d saved success %s\nTitle : %s", threadId, thread.Link, thread.Title)
 
 		//Push it to our link queue
+		color.Red("Pushing to Thread queue\n%+v", newThread)
 		Threads <- newThread
 	} else {
 		logger.WithField(" threadId", threadId).WithField("thread.Link", thread.Link).Info("Thread already exists!")
@@ -103,6 +104,9 @@ func GetLastPage(thread *entity.Thread) uint64 {
 	}
 	pages := thread.PageJump
 	l := len(pages)
+	if l < 2 {
+		return 1
+	}
 	val, err := strconv.ParseUint(pages[l-1], 10, 64)
 	if err != nil {
 		logger.Errorln(err)

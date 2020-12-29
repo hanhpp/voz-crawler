@@ -11,7 +11,8 @@ var Threads = make(chan *model.Thread,100)
 func RunCronjob() {
 	go CrawlThreadsFromF17()
 	//go CrawlThreads(global.F33, "diem-bao")
-	//go CommentLoop()
+	go CommentLoop()
+	go UpdateLocalThread()
 }
 
 func CrawlThreadsFromF17() {

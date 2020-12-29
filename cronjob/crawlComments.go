@@ -18,10 +18,10 @@ import (
 
 func CrawlComments(url string, threadID uint64) {
 	logger := config.GetLogger()
-	color.Yellow("cron job: Crawling comments from %s", url)
+	color.Yellow("Crawling comments from %s", url)
 	//Let's crawl from multiple pages
 	localThread := &model.Thread{}
-	err := entity.GetDBInstance().Model(&model.Thread{}).Debug().Where("thread_id = ?", threadID).Find(&localThread).Error
+	err := entity.GetDBInstance().Model(&model.Thread{}).Where("thread_id = ?", threadID).Find(&localThread).Error
 	if err != nil {
 		logger.Errorln(err)
 		return
@@ -68,6 +68,13 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 			Info("Comment saved success!")
 		//color.Blue("Content [%s]", localCmt.Text)
 	} else {
+		//Record existed, so update
+		//TODO check if content is newer or not before update
+		err = entity.GetDBInstance().Save(&localCmt).Error
+		if err != nil {
+			logger.Errorln(err)
+			return err
+		}
 		//color.Red("Comment %d by user %s already exists!", localCmt.CommentId, localCmt.UserName)
 		//color.Red("Content: \n%s",localCmt.Text)
 		//color.Red("Link : %s", cmt.Link)
