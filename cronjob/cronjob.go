@@ -6,10 +6,26 @@ import (
 	"voz/model"
 )
 
-var Threads = make(chan *model.Thread)
+var Threads = make(chan *model.Thread,100)
 
 func RunCronjob() {
-	go CrawlThreads(global.F17, "thread")
+	go CrawlThreadsFromF17()
+	//go CrawlThreads(global.F33, "diem-bao")
+	go CommentLoop()
+
+}
+
+func CrawlThreadsFromF17() {
+	go CrawlThreads(global.F17, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P2, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P3, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P4, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P5, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P6, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P7, "chuyen-tro-linh-tinh")
+}
+
+func CommentLoop() {
 	for {
 		select {
 		case thread := <-Threads:

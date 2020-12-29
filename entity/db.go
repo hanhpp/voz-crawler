@@ -53,6 +53,7 @@ func DBAutoMigration() {
 	err := GetDBInstance().AutoMigrate(
 		&model.Thread{},
 		&model.Comment{},
+		&model.DeletedThread{},
 	)
 	if err != nil {
 		logger.Errorln(err)

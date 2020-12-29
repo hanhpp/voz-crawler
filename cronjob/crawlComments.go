@@ -6,7 +6,6 @@ import (
 	"github.com/gocolly/colly"
 	"gorm.io/gorm"
 	"log"
-	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
@@ -34,19 +33,8 @@ func CrawlComments(url string, fileName string, threadID uint64) {
 func VisitAndCollectCmtsFromURL(URL string, fileName string, threadID uint64) {
 	c := colly.NewCollector()
 
-	basePath := "./text"
-	path := filepath.Join(basePath, fileName)
-	f := createFile(path)
-	defer f.Close()
-
 	var titles []string
 	c.OnHTML(global.CommentStruct, func(e *colly.HTMLElement) {
-		//color.Red("%s", e.Text)
-		//_, err := f.Write([]byte(e.Text))
-		//if err != nil {
-		//	log.Fatal(err)
-		//}
-		//color.Cyan("%+v", e)
 		err := handleCmtsContent(e, titles, threadID)
 		logger := config.GetLogger()
 		if err != nil {

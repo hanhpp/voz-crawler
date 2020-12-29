@@ -26,7 +26,7 @@ func CrawlThreads(url string, fileName string) {
 		cron.WithChain(cron.SkipIfStillRunning(skipLogger)),
 	)
 	_, _ = c.AddFunc("@every 0h0m3s", func() { // 23h59m GMT +8
-		config.GetLogger().Info("Running crawler...")
+		//config.GetLogger().Info("Running crawler...")
 		VisitAndCollectThreadsFromURL(url, fileName)
 	})
 	c.Start()
@@ -35,18 +35,9 @@ func CrawlThreads(url string, fileName string) {
 func VisitAndCollectThreadsFromURL(URL string, fileName string) {
 	c := colly.NewCollector()
 
-	//basePath := "./text"
-	//path := filepath.Join(basePath, fileName)
-	//f := createFile(path)
-	//defer f.Close()
-
 	var titles []string
 	c.OnHTML(global.ThreadTitle, func(e *colly.HTMLElement) {
-		//_, err := f.Write([]byte(e.Text))
-		//if err != nil {
-		//	log.Fatal(err)
-		//}
-		err := handleThreadContent(e, titles)
+		err := handleThreadContent(e, titles,URL)
 		logger := config.GetLogger()
 		if err != nil {
 			logger.Errorln(err)
@@ -55,7 +46,7 @@ func VisitAndCollectThreadsFromURL(URL string, fileName string) {
 	_ = c.Visit(URL)
 }
 
-func handleThreadContent(e *colly.HTMLElement, titles []string) error {
+func handleThreadContent(e *colly.HTMLElement, titles []string,parentURL string) error {
 	logger := config.GetLogger()
 	text := standardizeSpaces(e.Text)
 	titles = append(titles, text)
@@ -70,6 +61,7 @@ func handleThreadContent(e *colly.HTMLElement, titles []string) error {
 		Title:    thread.Title,
 		Link:     link,
 		ThreadId: threadId,
+		ParentURL: parentURL,
 	}
 	//color.Red("%v", newThread)
 	localThread := &model.Thread{}
@@ -82,11 +74,12 @@ func handleThreadContent(e *colly.HTMLElement, titles []string) error {
 			return err
 		}
 		color.Cyan("Thread %d saved success %s\nTitle : %s", threadId, thread.Link, thread.Title)
-		Threads <- newThread
+
 		//Push it to our link queue
+		Threads <- newThread
 	} else {
-		color.Red("Thread %d already exists!", threadId)
-		color.Red("Link : %s", thread.Link)
+		//color.Red("Thread %d already exists!", threadId)
+		//color.Red("Link : %s", thread.Link)
 	}
 	return nil
 }
