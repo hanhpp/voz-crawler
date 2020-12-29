@@ -5,6 +5,7 @@ type Thread struct {
 	Link      string `json:"link,omitempty"`
 	ThreadId  uint64 `json:"thread_id,omitempty" gorm:"primary_key;unique;not null;index"`
 	ParentURL string `json:"parent_url,omitempty"`
+	LastPage uint64 `json:"last_page,omitempty"`
 	BaseModel
 }
 

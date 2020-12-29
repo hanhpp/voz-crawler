@@ -11,8 +11,7 @@ var Threads = make(chan *model.Thread,100)
 func RunCronjob() {
 	go CrawlThreadsFromF17()
 	//go CrawlThreads(global.F33, "diem-bao")
-	go CommentLoop()
-
+	//go CommentLoop()
 }
 
 func CrawlThreadsFromF17() {
@@ -25,7 +24,9 @@ func CrawlThreadsFromF17() {
 	go CrawlThreads(global.F17_P4, "chuyen-tro-linh-tinh")
 	go CrawlThreads(global.F17_P5, "chuyen-tro-linh-tinh")
 	go CrawlThreads(global.F17_P6, "chuyen-tro-linh-tinh")
-	go CrawlThreads(global.F17_P7, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P8, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P9, "chuyen-tro-linh-tinh")
+	go CrawlThreads(global.F17_P10, "chuyen-tro-linh-tinh")
 }
 
 func CommentLoop() {

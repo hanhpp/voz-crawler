@@ -17,9 +17,17 @@ import (
 )
 
 func CrawlComments(url string, threadID uint64) {
+	logger := config.GetLogger()
 	color.Yellow("cron job: Crawling comments from %s", url)
 	//Let's crawl from multiple pages
-	for i := uint64(2); i < 5; i++ {
+	localThread := &model.Thread{}
+	err := entity.GetDBInstance().Model(&model.Thread{}).Debug().Where("thread_id = ?", threadID).Find(&localThread).Error
+	if err != nil {
+		logger.Errorln(err)
+		return
+	}
+	lastPage := localThread.LastPage
+	for i := global.MinPage; i <= lastPage; i++ {
 		newURL := utils.AddPageSuffix(url, i)
 		VisitAndCollectCommentFromURL(newURL, threadID, i)
 	}
@@ -55,8 +63,8 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 			return err
 		}
 		color.Green("[%d] Comment %d by user %s saved success!", localCmt.ThreadId, localCmt.CommentId, localCmt.UserName)
-		logger.WithField("text",localCmt.Text).WithField("threadID",localCmt.ThreadId).
-			WithField("commentId",localCmt.CommentId).WithField("username",localCmt.UserName).
+		logger.WithField("text", localCmt.Text).WithField("threadID", localCmt.ThreadId).
+			WithField("commentId", localCmt.CommentId).WithField("username", localCmt.UserName).
 			Info("Comment saved success!")
 		//color.Blue("Content [%s]", localCmt.Text)
 	} else {
@@ -105,7 +113,6 @@ func ProcessDesc(e *colly.HTMLElement, threadId uint64, page uint64) *model.Comm
 		color.Red("Res len is not 2 but %d", len(res))
 	}
 
-
 	localCmt := &model.Comment{
 		ThreadId:   threadId,
 		UserName:   cmt.Name,
@@ -113,7 +120,7 @@ func ProcessDesc(e *colly.HTMLElement, threadId uint64, page uint64) *model.Comm
 		TimePosted: cmt.TimePosted,
 		CommentId:  cmtId,
 	}
-	if page <2 {
+	if page < 2 {
 		localCmt.Page = 1
 	} else {
 		localCmt.Page = page

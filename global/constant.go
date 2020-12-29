@@ -3,7 +3,6 @@ package global
 import "voz/utils"
 
 const (
-	F33           = "https://voz.vn/f/diem-bao.33"
 	VozBaseURL    = "https://voz.vn"
 	ThreadLink    = ".structItem-minor .structItem-parts"
 	ThreadTitle   = ".structItem-title"
@@ -24,8 +23,18 @@ const (
 
 const (
 	F17 = "https://voz.vn/f/chuyen-tro-linh-tinh.17"
+	F33           = "https://voz.vn/f/diem-bao.33"
 )
 
+const (
+	MinPage uint64 = 1
+	MaxPage uint64 = 10
+)
+
+const (
+	//10 second
+	CrawlInterval uint64 = 10
+)
 var (
 	F17_P2 = utils.AddPageSuffix(F17, 2)
 	F17_P3 = utils.AddPageSuffix(F17, 3)
@@ -33,6 +42,19 @@ var (
 	F17_P5 = utils.AddPageSuffix(F17, 5)
 	F17_P6 = utils.AddPageSuffix(F17, 6)
 	F17_P7 = utils.AddPageSuffix(F17, 7)
-	F17_Pages = []string{F17_P2,F17_P3,F17_P4,F17_P5,F17_P6,F17_P7}
+	F17_P8 = utils.AddPageSuffix(F17, 8)
+	F17_P9 = utils.AddPageSuffix(F17, 9)
+	F17_P10 = utils.AddPageSuffix(F17, 10)
+	F17_Pages = []string{F17,F17_P2,F17_P3,F17_P4,F17_P5,F17_P6,F17_P7}
+)
+
+var (
+	F33_P2 = utils.AddPageSuffix(F33, 2)
+	F33_P3 = utils.AddPageSuffix(F33, 3)
+	F33_P4 = utils.AddPageSuffix(F33, 4)
+	F33_P5 = utils.AddPageSuffix(F33, 5)
+	F33_P6 = utils.AddPageSuffix(F33, 6)
+	F33_P7 = utils.AddPageSuffix(F33, 7)
+	F33_Pages = []string{F33,F33_P2,F33_P3,F33_P4,F33_P5,F33_P6,F33_P7}
 )
 

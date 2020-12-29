@@ -1,0 +1,3769 @@
+<!DOCTYPE html>
+<html id="XF" lang="en-US" dir="LTR"
+	data-app="public"
+	data-template="forum_view"
+	data-container-key="node-17"
+	data-content-key=""
+	data-logged-in="false"
+	data-cookie-prefix="xf_"
+	data-csrf="1609228255,3269e1745cde004e6df1683201d6869e"
+	class="has-no-js template-forum_view"
+	>
+<head>
+	<!-- gtm -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5PVFDSJ');</script>
+	<!-- gtm // -->
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+	
+	
+	
+
+	<title>Chuyện trò linh tinh™ | theNEXTvoz</title>
+
+	<link rel="manifest" href="/webmanifest.php">
+	
+		<meta name="theme-color" content="#5c7099" />
+	
+
+	<meta name="apple-mobile-web-app-title" content="VOZ">
+	
+		<link rel="apple-touch-icon" href="/styles/next/xenforo/voz-logo-192.png?v=1">
+	
+
+	
+		<link rel="canonical" href="https://voz.vn/f/chuyen-tro-linh-tinh.17/" />
+	
+		<link rel="alternate" type="application/rss+xml" title="RSS feed for Chuyện trò linh tinh™" href="/f/chuyen-tro-linh-tinh.17/index.rss" />
+	
+		<link rel="next" href="/f/chuyen-tro-linh-tinh.17/page-2" />
+	
+
+	
+		
+	
+	
+	<meta property="og:site_name" content="theNEXTvoz" />
+
+
+	
+	
+		
+	
+	
+	<meta property="og:type" content="website" />
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:title" content="Chuyện trò linh tinh™" />
+		<meta property="twitter:title" content="Chuyện trò linh tinh™" />
+	
+
+
+	
+	
+	
+		
+	
+	
+	<meta property="og:url" content="https://voz.vn/f/chuyen-tro-linh-tinh.17/" />
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:image" content="https://voz.vn/styles/next/xenforo/voz-logo-og.png?v=1" />
+		<meta property="twitter:image" content="https://voz.vn/styles/next/xenforo/voz-logo-og.png?v=1" />
+		<meta property="twitter:card" content="summary" />
+	
+
+
+	
+
+	
+	
+
+	
+
+
+	<link rel="preload" href="/styles/fonts/fa/fa-regular-400.woff2?_v=5.14.0" as="font" type="font/woff2" crossorigin="anonymous" />
+
+
+	<link rel="preload" href="/styles/fonts/fa/fa-solid-900.woff2?_v=5.14.0" as="font" type="font/woff2" crossorigin="anonymous" />
+
+
+<link rel="preload" href="/styles/fonts/fa/fa-brands-400.woff2?_v=5.14.0" as="font" type="font/woff2" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=2&amp;l=1&amp;d=1606933057&amp;k=60cca8c32f5e5890eb63a4982d1378d9b6dcf43a" />
+
+	<link rel="stylesheet" href="/css.php?css=public%3Ashare_controls.less%2Cpublic%3Astructured_list.less%2Cpublic%3Aextra.less&amp;s=2&amp;l=1&amp;d=1606933057&amp;k=0c92a0f1f3afc7044d0724fc787874d088ccf873" />
+
+	
+		<script src="/js/xf/preamble.min.js?_v=c50a03be"></script>
+	
+
+
+	
+		<link rel="icon" type="image/png" href="https://voz.vn/styles/next/xenforo/voz-favicon.png?v=1" sizes="32x32" />
+	
+	
+	<!-- google fonts -->
+<link href="//fonts.googleapis.com/css?family=Be+Vietnam:300,400,400i,500,700,700i|Open+Sans:300,400,400i,500,700,700i|Montserrat:300,400,400i,500,700,700i&display=swap&subset=vietnamese" rel="stylesheet">
+<link href="//fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+<!-- google fonts // -->
+
+<!-- site wide gpt -->
+<script src="/js/voz/gpt.js?v=01"></script>
+<!-- site wide gpt // -->
+
+<!-- dable script -->
+
+<script>
+(function(d,a,b,l,e,_) {
+d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/plugin.min.js';
+_=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+})(window,document,'dable','script');
+dable('setService', 'voz.vn');
+dable('sendLogOnce');
+</script>
+
+<!-- dable script // -->
+
+	
+		<!-- hb/gpt -->
+		<script async src="//securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+		<script async src="//assets.a-mo.net/js/adapter.js"></script> 
+		<script async src="//voz.vn/js/voz/pb3240.js?v=13"></script>
+		<script async src="//voz.vn/js/voz/wrpr3240.js?v=13" data-template="forum_view"></script>
+		<script async src="//voz.vn/js/voz/ar.min.js?v=07"></script>
+		<script>
+		window.googletag = window.googletag || {cmd: []};
+		googletag.cmd.push(function() {
+			var mapping_01 = googletag.sizeMapping()
+			.addSize([0, 0], [[336, 280], [300, 250], [320, 50]])
+			.addSize([728, 0], [728, 90])
+			.addSize([774, 0], [[750, 200], [728, 90]])
+			.addSize([1060, 0], [728, 90])
+			.addSize([1082, 0], [[750, 200], [728, 90]])
+			.addSize([1302, 0], [[970, 250], [970, 90], [750, 200], [728, 90]])
+			.build();
+			var mapping_02 = googletag.sizeMapping()
+			.addSize([0, 0], [[336, 280], [300, 250], [320, 50]])
+			.addSize([728, 0], [728, 90])
+			.addSize([1302, 0], [[970, 90], [728, 90]])
+			.build();
+			var mapping_horizontal_00 = googletag.sizeMapping()
+			.addSize([0, 0], [[336, 280], [300, 250]])
+			.addSize([728, 0], [728, 90])
+			.addSize([994, 0], [[970, 250], [970, 90], [728, 90]])
+			.build();
+			var mapping_horizontal_01 = googletag.sizeMapping()
+			.addSize([0, 0], [[336, 280], [300, 250]])
+			.addSize([728, 0], [728, 90])
+			.addSize([994, 0], [])
+			.build();
+			var mapping_horizontal_02 = googletag.sizeMapping()
+			.addSize([0, 0], [[336, 280], [300, 250]])
+			.addSize([728, 0], [[728, 90], 'fluid'])
+			.addSize([994, 0], [[970, 90], [728, 90], 'fluid'])
+			.build();
+			var mapping_vertical_00 = googletag.sizeMapping()
+			.addSize([0, 0], [])
+			.addSize([1060, 0], [300, 250])
+			.addSize([1060, 1200], [[300, 600], [160, 600], [120, 600]])
+			.build();
+			var mapping_vertical_01 = googletag.sizeMapping()
+			.addSize([0, 0], [])
+			.addSize([1060, 0], [300, 250])
+			.addSize([1060, 900], [[300, 600], [160, 600], [120, 600]])
+			.build();
+			//
+			//
+			googletag.defineSlot('/21945350649/voz_vn__site__top', [[300, 250], [336, 280], [728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1594315151905-0').addService(googletag.pubads())
+			.setTargeting('position', 'top')
+			.defineSizeMapping(mapping_horizontal_01);
+			googletag.defineSlot('/21945350649/voz_vn__site__bottom', [[300, 250], [336, 280], [728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1594315183557-0').addService(googletag.pubads())
+			.setTargeting('position', 'bottom')
+			.defineSizeMapping(mapping_horizontal_00);
+			googletag.defineSlot('/21945350649/voz_vn__site__side', [[120, 600], [160, 600], [300, 250], [300, 600]], 'div-gpt-ad-1594203082552-0').addService(googletag.pubads())
+			.setTargeting('position', 'side')
+			.defineSizeMapping(mapping_vertical_01);
+			//
+			//
+			//
+			//
+			googletag.pubads().setTargeting('section', 'node-17');
+			googletag.pubads().setTargeting('content', 'nope');
+			googletag.pubads().enableLazyLoad({
+				fetchMarginPercent: 100,
+				renderMarginPercent: 50,
+				mobileScaling: 2.0
+			});
+			//
+			googletag.pubads().enableSingleRequest();
+			//
+			googletag.pubads().collapseEmptyDivs();
+			googletag.pubads().disableInitialLoad();
+			googletag.enableServices();
+		});
+		</script>
+		<!-- hb/gpt // -->
+	
+</head>
+<body data-template="forum_view" class="container__node-17 only">
+
+<!-- google tag manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PVFDSJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- google tag manager (noscript) // -->
+
+<div class="p-pageWrapper" id="top">
+
+
+
+
+
+<header class="p-header" id="header">
+	<div class="p-header-inner">
+		<div class="p-header-content">
+
+			<div class="p-header-logo p-header-logo--image">
+				<a href="/">
+					<img src="/styles/next/xenforo/voz-logo.png?v=3" srcset="/styles/next/xenforo/voz-logo_2x.png?v=3 2x" alt="theNEXTvoz"
+						width="" height="" />
+				</a>
+			</div>
+
+			
+		</div>
+	</div>
+</header>
+
+
+
+
+
+	<div class="p-navSticky p-navSticky--primary" data-xf-init="sticky-header">
+		
+	<nav class="p-nav">
+		<div class="p-nav-inner">
+			<a class="p-nav-menuTrigger" data-xf-click="off-canvas" data-menu=".js-headerOffCanvasMenu" role="button" tabindex="0">
+				<i aria-hidden="true"></i>
+				<span class="p-nav-menuText">Menu</span>
+			</a>
+
+			<div class="p-nav-smallLogo">
+				<a href="/">
+					<img src="/styles/next/xenforo/voz-logo.png?v=3" srcset="/styles/next/xenforo/voz-logo_2x.png?v=3 2x" alt="theNEXTvoz"
+						width="" height="" />
+				</a>
+			</div>
+
+			<div class="p-nav-scroller hScroller" data-xf-init="h-scroller" data-auto-scroll=".p-navEl.is-selected">
+				<div class="hScroller-scroll">
+					<ul class="p-nav-list js-offCanvasNavSource">
+					
+						<li>
+							
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="/a/"
+		class="p-navEl-link "
+		
+		data-xf-key="1"
+		data-nav-id="EWRporta">News</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl is-selected" data-has-children="true">
+		
+
+			
+	
+	<a href="/"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="forums">Forums</a>
+
+
+			<a data-xf-key="2"
+				data-xf-click="menu"
+				data-menu-pos-ref="< .p-navEl"
+				class="p-navEl-splitTrigger"
+				role="button"
+				tabindex="0"
+				aria-label="Toggle expanded"
+				aria-expanded="false"
+				aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/whats-new/posts/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="newPosts">New posts</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="/whats-new/"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="whatsNew">Latests</a>
+
+
+			<a data-xf-key="3"
+				data-xf-click="menu"
+				data-menu-pos-ref="< .p-navEl"
+				class="p-navEl-splitTrigger"
+				role="button"
+				tabindex="0"
+				aria-label="Toggle expanded"
+				aria-expanded="false"
+				aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/whats-new/posts/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="whatsNewPosts">New posts</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/whats-new/profile-posts/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="whatsNewProfilePosts">New profile posts</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/whats-new/latest-activity"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="latestActivity">Latest activity</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="/u/"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="members">Members</a>
+
+
+			<a data-xf-key="4"
+				data-xf-click="menu"
+				data-menu-pos-ref="< .p-navEl"
+				class="p-navEl-splitTrigger"
+				role="button"
+				tabindex="0"
+				aria-label="Toggle expanded"
+				aria-expanded="false"
+				aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/online/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="currentVisitors">Current visitors</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/whats-new/profile-posts/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="newProfilePosts">New profile posts</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="https://2.pik.vn"
+		class="p-navEl-link "
+		 target="_blank"
+		data-xf-key="5"
+		data-nav-id="voz_vn__pik_vn__home">pik.vn</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+
+			<div class="p-nav-opposite">
+				<div class="p-navgroup p-account p-navgroup--guest">
+					
+						<a href="/login/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--logIn"
+							data-xf-click="overlay" data-follow-redirects="on">
+							<span class="p-navgroup-linkText">Log in</span>
+						</a>
+						
+							<a href="/register/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--register"
+								data-xf-click="overlay" data-follow-redirects="on">
+								<span class="p-navgroup-linkText">Register</span>
+							</a>
+						
+					
+				</div>
+
+				<div class="p-navgroup p-discovery p-discovery--noSearch">
+					<a href="/whats-new/"
+						class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--whatsnew"
+						aria-label="What&#039;s new"
+						title="What&#039;s new">
+						<i aria-hidden="true"></i>
+						<span class="p-navgroup-linkText">What's new</span>
+					</a>
+
+					
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	</div>
+	
+	
+		<div class="p-sectionLinks">
+			<div class="p-sectionLinks-inner hScroller" data-xf-init="h-scroller">
+				<div class="hScroller-scroll">
+					<ul class="p-sectionLinks-list">
+					
+						<li>
+							
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="/whats-new/posts/"
+		class="p-navEl-link "
+		
+		data-xf-key="alt+1"
+		data-nav-id="newPosts">New posts</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+
+
+
+<div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+	<div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+	<div class="offCanvasMenu-content">
+		<div class="offCanvasMenu-header">
+			Menu
+			<a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Close"></a>
+		</div>
+		
+			<div class="p-offCanvasRegisterLink">
+				<div class="offCanvasMenu-linkHolder">
+					<a href="/login/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+						Log in
+					</a>
+				</div>
+				<hr class="offCanvasMenu-separator" />
+				
+					<div class="offCanvasMenu-linkHolder">
+						<a href="/register/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+							Register
+						</a>
+					</div>
+					<hr class="offCanvasMenu-separator" />
+				
+			</div>
+		
+		<div class="js-offCanvasNavTarget"></div>
+		<div class="offCanvasMenu-installBanner js-installPromptContainer" style="display: none;" data-xf-init="install-prompt">
+			<div class="offCanvasMenu-installBanner-header">Install the app</div>
+			<button type="button" class="js-installPromptButton button"><span class="button-text">Install</span></button>
+		</div>
+	</div>
+</div>
+
+<div class="p-body">
+	<div class="p-body-background"></div>
+	<div class="p-body-inner">
+		<!--XF:EXTRA_OUTPUT-->
+
+		
+
+		
+
+		
+		
+	
+		<ul class="p-breadcrumbs "
+			itemscope itemtype="https://schema.org/BreadcrumbList">
+		
+			
+
+			
+			
+				
+				
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="/" itemprop="item">
+			<span itemprop="name">Forums</span>
+		</a>
+		<meta itemprop="position" content="1" />
+	</li>
+
+			
+
+			
+			
+				
+				
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="/#khu-vui-choi-giai-tri.16" itemprop="item">
+			<span itemprop="name">Khu vui chơi giải trí</span>
+		</a>
+		<meta itemprop="position" content="2" />
+	</li>
+
+			
+
+		
+		</ul>
+	
+
+		
+
+		
+	<noscript><div class="blockMessage blockMessage--important blockMessage--iconic u-noJsOnly">JavaScript is disabled. For a better experience, please enable JavaScript in your browser before proceeding.</div></noscript>
+
+		
+	<div class="blockMessage blockMessage--important blockMessage--iconic js-browserWarning" style="display: none">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/" target="_blank" rel="noopener">alternative browser</a>.</div>
+
+
+		
+			<div class="p-body-header">
+			
+				
+					<div class="p-title ">
+					
+						
+							<h1 class="p-title-value">Chuyện trò linh tinh™</h1>
+						
+						
+					
+					</div>
+				
+
+				
+			
+			</div>
+		
+
+		<div class="p-body-main p-body-main--withSidebar ">
+			
+			<div class="p-body-contentCol"></div>
+			
+				<div class="p-body-sidebarCol"></div>
+			
+
+			
+
+			<div class="p-body-content">
+				
+				<div class="p-body-pageContent">
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+	
+
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+<!-- /21945350649/voz_vn__site__top -->
+<div id='div-gpt-ad-1594315151905-0' class='block block-container gamau voz_vn__site__top'>
+	<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1594315151905-0'); });</script>
+</div>
+
+
+
+
+
+<div class="block " data-xf-init="" data-type="thread" data-href="/inline-mod/">
+
+	<div class="block-outer"><div class="block-outer-main"><nav class="pageNavWrapper pageNavWrapper--mixed ">
+
+
+
+<div class="pageNav  pageNav--skipEnd">
+	
+
+	<ul class="pageNav-main">
+		
+
+	
+		<li class="pageNav-page pageNav-page--current "><a href="/f/chuyen-tro-linh-tinh.17/">1</a></li>
+	
+
+
+		
+
+		
+			
+
+	
+		<li class="pageNav-page pageNav-page--later"><a href="/f/chuyen-tro-linh-tinh.17/page-2">2</a></li>
+	
+
+		
+			
+
+	
+		<li class="pageNav-page pageNav-page--later"><a href="/f/chuyen-tro-linh-tinh.17/page-3">3</a></li>
+	
+
+		
+
+		
+			
+				<li class="pageNav-page pageNav-page--skip pageNav-page--skipEnd">
+					<a data-xf-init="tooltip" title="Go to page"
+						data-xf-click="menu"
+						role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">…</a>
+					
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/f/chuyen-tro-linh-tinh.17/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="4"  min="1" max="2082" step="1" required="required" data-menu-autofocus="true" /></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+				</li>
+			
+		
+
+		
+
+	
+		<li class="pageNav-page "><a href="/f/chuyen-tro-linh-tinh.17/page-2082">2082</a></li>
+	
+
+	</ul>
+
+	
+		<a href="/f/chuyen-tro-linh-tinh.17/page-2" class="pageNav-jump pageNav-jump--next">Next</a>
+	
+</div>
+
+<div class="pageNavSimple">
+	
+
+	<a class="pageNavSimple-el pageNavSimple-el--current"
+		data-xf-init="tooltip" title="Go to page"
+		data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">
+		1 of 2082
+	</a>
+	
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/f/chuyen-tro-linh-tinh.17/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="1"  min="1" max="2082" step="1" required="required" data-menu-autofocus="true" /></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+		<a href="/f/chuyen-tro-linh-tinh.17/page-2" class="pageNavSimple-el pageNavSimple-el--next">
+			Next <i aria-hidden="true"></i>
+		</a>
+		<a href="/f/chuyen-tro-linh-tinh.17/page-2082"
+			class="pageNavSimple-el pageNavSimple-el--last"
+			data-xf-init="tooltip" title="Last">
+			<i aria-hidden="true"></i> <span class="u-srOnly">Last</span>
+		</a>
+	
+</div>
+
+</nav>
+
+
+
+</div></div>
+
+	<div class="block-container">
+
+		
+			<div class="block-filterBar">
+				<div class="filterBar">
+					
+
+					<a class="filterBar-menuTrigger" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">Filters</a>
+					<div class="menu menu--wide" data-menu="menu" aria-hidden="true"
+						data-href="/f/chuyen-tro-linh-tinh.17/filters"
+						data-load-target=".js-filterMenuBody">
+						<div class="menu-content">
+							<h4 class="menu-header">Show only:</h4>
+							<div class="js-filterMenuBody">
+								<div class="menu-row">Loading…</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+		
+
+		<div class="block-body">
+			
+				<div class="structItemContainer">
+					
+
+	
+
+	
+
+
+
+					
+						
+							<div class="structItemContainer-group structItemContainer-group--sticky">
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-20087" data-author="magicdesigner">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/magicdesigner.1280318/" class="avatar avatar--s" data-user-id="1280318" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1280/1280318.jpg?1589932128" srcset="/data/avatars/m/1280/1280318.jpg?1589932128 2x" alt="magicdesigner" class="avatar-u1280318-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+				<ul class="structItem-statuses">
+				
+				
+					
+					
+					
+					
+					
+
+					
+						
+							<li>
+								<i class="structItem-status structItem-status--sticky" aria-hidden="true" title="Sticky"></i>
+								<span class="u-srOnly">Sticky</span>
+							</li>
+						
+					
+
+					
+					
+
+					
+					
+						
+							
+						
+					
+				
+				
+				</ul>
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/hoa-vang-thuo-ay.20087/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/hoa-vang-thuo-ay.20087/preview">Hoa Vàng Thuở Ấy</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/magicdesigner.1280318/" class="username " dir="auto" itemprop="name" data-user-id="1280318" data-xf-init="member-tooltip">magicdesigner</a></li>
+						<li class="structItem-startDate"><a href="/t/hoa-vang-thuo-ay.20087/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-04-05T23:47:36+0700" data-time="1586105256" data-date-string="Apr 5, 2020" data-time-string="11:47 PM" title="Apr 5, 2020 at 11:47 PM">Apr 5, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/hoa-vang-thuo-ay.20087/page-98">98</a>
+						
+							<a href="/t/hoa-vang-thuo-ay.20087/page-99">99</a>
+						
+							<a href="/t/hoa-vang-thuo-ay.20087/page-100">100</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 112">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>2K</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>235K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/hoa-vang-thuo-ay.20087/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T13:29:29+0700" data-time="1609223369" data-date-string="Dec 29, 2020" data-time-string="1:29 PM" title="Dec 29, 2020 at 1:29 PM">Today at 1:29 PM</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/magicdesigner.1280318/" class="username " dir="auto" itemprop="name" data-user-id="1280318" data-xf-init="member-tooltip">magicdesigner</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/magicdesigner.1280318/" class="avatar avatar--xxs" data-user-id="1280318" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1280/1280318.jpg?1589932128"  alt="magicdesigner" class="avatar-u1280318-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-581" data-author="thuyvan">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/thuyvan.42178/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="42178" data-xf-init="member-tooltip" style="background-color: #5c7ad6; color: #1a2d66">
+			<span class="avatar-u42178-s">T</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+				<ul class="structItem-statuses">
+				
+				
+					
+					
+					
+					
+					
+
+					
+						
+							<li>
+								<i class="structItem-status structItem-status--sticky" aria-hidden="true" title="Sticky"></i>
+								<span class="u-srOnly">Sticky</span>
+							</li>
+						
+					
+
+					
+					
+
+					
+					
+						
+							
+						
+					
+				
+				
+				</ul>
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/report-for-f17.581/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/report-for-f17.581/preview">Report for f17</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/thuyvan.42178/" class="username " dir="auto" itemprop="name" data-user-id="42178" data-xf-init="member-tooltip"><span class="username--staff username--moderator">thuyvan</span></a></li>
+						<li class="structItem-startDate"><a href="/t/report-for-f17.581/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-03-10T08:00:05+0700" data-time="1583802005" data-date-string="Mar 10, 2020" data-time-string="8:00 AM" title="Mar 10, 2020 at 8:00 AM">Mar 10, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/report-for-f17.581/page-8">8</a>
+						
+							<a href="/t/report-for-f17.581/page-9">9</a>
+						
+							<a href="/t/report-for-f17.581/page-10">10</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 7">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>188</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>23K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/report-for-f17.581/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-28T21:23:37+0700" data-time="1609165417" data-date-string="Dec 28, 2020" data-time-string="9:23 PM" title="Dec 28, 2020 at 9:23 PM">Yesterday at 9:23 PM</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/28-12-2020.1708413/" class="username " dir="auto" itemprop="name" data-user-id="1708413" data-xf-init="member-tooltip">28/12/2020</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/28-12-2020.1708413/" class="avatar avatar--xxs" data-user-id="1708413" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1708/1708413.jpg?1609166808"  alt="28/12/2020" class="avatar-u1708413-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-196964" data-author="duc4eyes">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/duc4eyes.17/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="17" data-xf-init="member-tooltip" style="background-color: #9966cc; color: #402060">
+			<span class="avatar-u17-s">D</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+				<ul class="structItem-statuses">
+				
+				
+					
+					
+					
+					
+					
+
+					
+						
+							<li>
+								<i class="structItem-status structItem-status--sticky" aria-hidden="true" title="Sticky"></i>
+								<span class="u-srOnly">Sticky</span>
+							</li>
+						
+					
+
+					
+					
+
+					
+					
+						
+							
+						
+					
+				
+				
+				</ul>
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/dang-ky-va-hoc-ngay-dai-hoc-kinh-te-tp-hcm-tai-vinh-long-he-vua-lam-vua-hoc-cac-nganh-chac-chan-khai-giang-ngay-09-01-2021.196964/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/dang-ky-va-hoc-ngay-dai-hoc-kinh-te-tp-hcm-tai-vinh-long-he-vua-lam-vua-hoc-cac-nganh-chac-chan-khai-giang-ngay-09-01-2021.196964/preview">Đăng ký và học ngay. Đại học Kinh tế TP.HCM tại Vĩnh Long. Hệ Vừa làm vừa học Các ngành chắc chắn khai giảng ngày 09.01.2021.</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/duc4eyes.17/" class="username " dir="auto" itemprop="name" data-user-id="17" data-xf-init="member-tooltip"><span class="username--staff username--moderator">duc4eyes</span></a></li>
+						<li class="structItem-startDate"><a href="/t/dang-ky-va-hoc-ngay-dai-hoc-kinh-te-tp-hcm-tai-vinh-long-he-vua-lam-vua-hoc-cac-nganh-chac-chan-khai-giang-ngay-09-01-2021.196964/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-17T19:58:17+0700" data-time="1608209897" data-date-string="Dec 17, 2020" data-time-string="7:58 PM" title="Dec 17, 2020 at 7:58 PM">Dec 17, 2020</time></a></li>
+						
+					</ul>
+
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: -7">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>18</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>10K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/dang-ky-va-hoc-ngay-dai-hoc-kinh-te-tp-hcm-tai-vinh-long-he-vua-lam-vua-hoc-cac-nganh-chac-chan-khai-giang-ngay-09-01-2021.196964/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-27T18:38:21+0700" data-time="1609069101" data-date-string="Dec 27, 2020" data-time-string="6:38 PM" title="Dec 27, 2020 at 6:38 PM">Sunday at 6:38 PM</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/toiditimdieukidieu.1394533/" class="username " dir="auto" itemprop="name" data-user-id="1394533" data-xf-init="member-tooltip">toiditimdieukidieu</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/toiditimdieukidieu.1394533/" class="avatar avatar--xxs" data-user-id="1394533" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1394/1394533.jpg?1603251115"  alt="toiditimdieukidieu" class="avatar-u1394533-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-578" data-author="thuyvan">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/thuyvan.42178/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="42178" data-xf-init="member-tooltip" style="background-color: #5c7ad6; color: #1a2d66">
+			<span class="avatar-u42178-s">T</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+				<ul class="structItem-statuses">
+				
+				
+					
+					
+					
+					
+					
+						<li>
+							<i class="structItem-status structItem-status--locked" aria-hidden="true" title="Locked"></i>
+							<span class="u-srOnly">Locked</span>
+						</li>
+					
+
+					
+						
+							<li>
+								<i class="structItem-status structItem-status--sticky" aria-hidden="true" title="Sticky"></i>
+								<span class="u-srOnly">Sticky</span>
+							</li>
+						
+					
+
+					
+					
+
+					
+					
+						
+							
+						
+					
+				
+				
+				</ul>
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/noi-quy-box-chuyen-tro-linh-tinh-vui-long-doc-that-ky-update-01-9-2020.578/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/noi-quy-box-chuyen-tro-linh-tinh-vui-long-doc-that-ky-update-01-9-2020.578/preview">Nội quy box Chuyện trò linh tinh™ (vui lòng đọc thật kỹ | update 01/9/2020)</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/thuyvan.42178/" class="username " dir="auto" itemprop="name" data-user-id="42178" data-xf-init="member-tooltip"><span class="username--staff username--moderator">thuyvan</span></a></li>
+						<li class="structItem-startDate"><a href="/t/noi-quy-box-chuyen-tro-linh-tinh-vui-long-doc-that-ky-update-01-9-2020.578/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-03-10T07:47:13+0700" data-time="1583801233" data-date-string="Mar 10, 2020" data-time-string="7:47 AM" title="Mar 10, 2020 at 7:47 AM">Mar 10, 2020</time></a></li>
+						
+					</ul>
+
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 6">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>1</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>14K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/noi-quy-box-chuyen-tro-linh-tinh-vui-long-doc-that-ky-update-01-9-2020.578/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-10-08T12:08:56+0700" data-time="1602133736" data-date-string="Oct 8, 2020" data-time-string="12:08 PM" title="Oct 8, 2020 at 12:08 PM">Oct 8, 2020</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/thuyvan.42178/" class="username " dir="auto" itemprop="name" data-user-id="42178" data-xf-init="member-tooltip"><span class="username--staff username--moderator">thuyvan</span></a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/thuyvan.42178/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="42178" data-xf-init="member-tooltip" style="background-color: #5c7ad6; color: #1a2d66">
+			<span class="avatar-u42178-s">T</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+							</div>
+
+							
+						
+
+						<div class="structItemContainer-group js-threadList">
+							
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-193926" data-author="arisato1508">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/arisato1508.992337/" class="avatar avatar--s" data-user-id="992337" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/992/992337.jpg?1594366934" srcset="/data/avatars/m/992/992337.jpg?1594366934 2x" alt="arisato1508" class="avatar-u992337-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/co-hinh-vua-moi-cau-hon-thanh-cong-ve.193926/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/co-hinh-vua-moi-cau-hon-thanh-cong-ve.193926/preview">[Có hình] Vừa mới cầu hôn thành công về</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/arisato1508.992337/" class="username " dir="auto" itemprop="name" data-user-id="992337" data-xf-init="member-tooltip">arisato1508</a></li>
+						<li class="structItem-startDate"><a href="/t/co-hinh-vua-moi-cau-hon-thanh-cong-ve.193926/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-12T23:25:02+0700" data-time="1607790302" data-date-string="Dec 12, 2020" data-time-string="11:25 PM" title="Dec 12, 2020 at 11:25 PM">Dec 12, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/co-hinh-vua-moi-cau-hon-thanh-cong-ve.193926/page-6">6</a>
+						
+							<a href="/t/co-hinh-vua-moi-cau-hon-thanh-cong-ve.193926/page-7">7</a>
+						
+							<a href="/t/co-hinh-vua-moi-cau-hon-thanh-cong-ve.193926/page-8">8</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 140">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>142</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>15K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/co-hinh-vua-moi-cau-hon-thanh-cong-ve.193926/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:50:39+0700" data-time="1609228239" data-date-string="Dec 29, 2020" data-time-string="2:50 PM" title="Dec 29, 2020 at 2:50 PM">A moment ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/fukitoff.1489166/" class="username " dir="auto" itemprop="name" data-user-id="1489166" data-xf-init="member-tooltip">fukitoff</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/fukitoff.1489166/" class="avatar avatar--xxs" data-user-id="1489166" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1489/1489166.jpg?1588653857"  alt="fukitoff" class="avatar-u1489166-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-181925" data-author="hoangnguyen1985">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/hoangnguyen1985.1550585/" class="avatar avatar--s" data-user-id="1550585" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1550/1550585.jpg?1595139614" srcset="/data/avatars/m/1550/1550585.jpg?1595139614 2x" alt="hoangnguyen1985" class="avatar-u1550585-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/tap-gym-khong-thue-pt-bi-khinh-thuong-khong.181925/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/tap-gym-khong-thue-pt-bi-khinh-thuong-khong.181925/preview">Tập gym không thuê PT bị khinh thường không</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/hoangnguyen1985.1550585/" class="username " dir="auto" itemprop="name" data-user-id="1550585" data-xf-init="member-tooltip">hoangnguyen1985</a></li>
+						<li class="structItem-startDate"><a href="/t/tap-gym-khong-thue-pt-bi-khinh-thuong-khong.181925/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-11-23T15:23:10+0700" data-time="1606119790" data-date-string="Nov 23, 2020" data-time-string="3:23 PM" title="Nov 23, 2020 at 3:23 PM">Nov 23, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/tap-gym-khong-thue-pt-bi-khinh-thuong-khong.181925/page-2">2</a>
+						
+							<a href="/t/tap-gym-khong-thue-pt-bi-khinh-thuong-khong.181925/page-3">3</a>
+						
+							<a href="/t/tap-gym-khong-thue-pt-bi-khinh-thuong-khong.181925/page-4">4</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 1">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>62</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>4K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/tap-gym-khong-thue-pt-bi-khinh-thuong-khong.181925/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:50:34+0700" data-time="1609228234" data-date-string="Dec 29, 2020" data-time-string="2:50 PM" title="Dec 29, 2020 at 2:50 PM">A moment ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/quan2921996.1351994/" class="username " dir="auto" itemprop="name" data-user-id="1351994" data-xf-init="member-tooltip">quan2921996</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/quan2921996.1351994/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1351994" data-xf-init="member-tooltip" style="background-color: #6699cc; color: #204060">
+			<span class="avatar-u1351994-s">Q</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203884" data-author="JoeBidenDC">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/joebidendc.1689440/" class="avatar avatar--s" data-user-id="1689440" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1689/1689440.jpg?1604383536" srcset="/data/avatars/m/1689/1689440.jpg?1604383536 2x" alt="JoeBidenDC" class="avatar-u1689440-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/hoi-ngu-ve-thuoc-la.203884/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/hoi-ngu-ve-thuoc-la.203884/preview">Hỏi ngu về thuốc lá!</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/joebidendc.1689440/" class="username " dir="auto" itemprop="name" data-user-id="1689440" data-xf-init="member-tooltip">JoeBidenDC</a></li>
+						<li class="structItem-startDate"><a href="/t/hoi-ngu-ve-thuoc-la.203884/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T14:35:54+0700" data-time="1609227354" data-date-string="Dec 29, 2020" data-time-string="2:35 PM" title="Dec 29, 2020 at 2:35 PM">14 minutes ago</time></a></li>
+						
+					</ul>
+
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>3</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>42</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/hoi-ngu-ve-thuoc-la.203884/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:50:20+0700" data-time="1609228220" data-date-string="Dec 29, 2020" data-time-string="2:50 PM" title="Dec 29, 2020 at 2:50 PM">A moment ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/tinfeeling.1429507/" class="username " dir="auto" itemprop="name" data-user-id="1429507" data-xf-init="member-tooltip">TinFeeling</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/tinfeeling.1429507/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1429507" data-xf-init="member-tooltip" style="background-color: #3366cc; color: #c2d1f0">
+			<span class="avatar-u1429507-s">T</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-198278" data-author="Hoangmangboy">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/hoangmangboy.1706722/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1706722" data-xf-init="member-tooltip" style="background-color: #5cd6b8; color: #1a6653">
+			<span class="avatar-u1706722-s">H</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/help-em-co-phai-ysl-hay-khong.198278/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/help-em-co-phai-ysl-hay-khong.198278/preview">Help, em có phải YSL hay không?</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/hoangmangboy.1706722/" class="username " dir="auto" itemprop="name" data-user-id="1706722" data-xf-init="member-tooltip">Hoangmangboy</a></li>
+						<li class="structItem-startDate"><a href="/t/help-em-co-phai-ysl-hay-khong.198278/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-20T01:12:09+0700" data-time="1608401529" data-date-string="Dec 20, 2020" data-time-string="1:12 AM" title="Dec 20, 2020 at 1:12 AM">Dec 20, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/help-em-co-phai-ysl-hay-khong.198278/page-2">2</a>
+						
+							<a href="/t/help-em-co-phai-ysl-hay-khong.198278/page-3">3</a>
+						
+							<a href="/t/help-em-co-phai-ysl-hay-khong.198278/page-4">4</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 2">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>70</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>6K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/help-em-co-phai-ysl-hay-khong.198278/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:50:02+0700" data-time="1609228202" data-date-string="Dec 29, 2020" data-time-string="2:50 PM" title="Dec 29, 2020 at 2:50 PM">A moment ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/tengtengvn.155/" class="username " dir="auto" itemprop="name" data-user-id="155" data-xf-init="member-tooltip"><span class="username--staff username--moderator">tengtengvn</span></a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/tengtengvn.155/" class="avatar avatar--xxs" data-user-id="155" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/0/155.jpg?1584983834"  alt="tengtengvn" class="avatar-u155-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203871" data-author="EmYeuCrit">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/emyeucrit.1115256/" class="avatar avatar--s" data-user-id="1115256" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1115/1115256.jpg?1608100560" srcset="/data/avatars/m/1115/1115256.jpg?1608100560 2x" alt="EmYeuCrit" class="avatar-u1115256-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/co-hinh-dr-martens-o-hoang-phuc-khac-ma-so-voi-hang.203871/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/co-hinh-dr-martens-o-hoang-phuc-khac-ma-so-voi-hang.203871/preview">[Có hình] Dr.Martens ở Hoàng Phúc KHÁC MÃ so với hãng?</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/emyeucrit.1115256/" class="username " dir="auto" itemprop="name" data-user-id="1115256" data-xf-init="member-tooltip">EmYeuCrit</a></li>
+						<li class="structItem-startDate"><a href="/t/co-hinh-dr-martens-o-hoang-phuc-khac-ma-so-voi-hang.203871/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T14:09:49+0700" data-time="1609225789" data-date-string="Dec 29, 2020" data-time-string="2:09 PM" title="Dec 29, 2020 at 2:09 PM">40 minutes ago</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/co-hinh-dr-martens-o-hoang-phuc-khac-ma-so-voi-hang.203871/page-2">2</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>22</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>348</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/co-hinh-dr-martens-o-hoang-phuc-khac-ma-so-voi-hang.203871/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:49:47+0700" data-time="1609228187" data-date-string="Dec 29, 2020" data-time-string="2:49 PM" title="Dec 29, 2020 at 2:49 PM">A moment ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/emyeucrit.1115256/" class="username " dir="auto" itemprop="name" data-user-id="1115256" data-xf-init="member-tooltip">EmYeuCrit</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/emyeucrit.1115256/" class="avatar avatar--xxs" data-user-id="1115256" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1115/1115256.jpg?1608100560"  alt="EmYeuCrit" class="avatar-u1115256-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203891" data-author="iwanttorelax2013">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/iwanttorelax2013.1325083/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1325083" data-xf-init="member-tooltip" style="background-color: #adcc33; color: #343d0f">
+			<span class="avatar-u1325083-s">I</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/duong-tu-sg-di-thanh-pho-moi-binh-duong-co-ket-xe.203891/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/duong-tu-sg-di-thanh-pho-moi-binh-duong-co-ket-xe.203891/preview">Đường từ SG đi Thành phố mới Bình Dương có kẹt xe?</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/iwanttorelax2013.1325083/" class="username " dir="auto" itemprop="name" data-user-id="1325083" data-xf-init="member-tooltip">iwanttorelax2013</a></li>
+						<li class="structItem-startDate"><a href="/t/duong-tu-sg-di-thanh-pho-moi-binh-duong-co-ket-xe.203891/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T14:44:45+0700" data-time="1609227885" data-date-string="Dec 29, 2020" data-time-string="2:44 PM" title="Dec 29, 2020 at 2:44 PM">6 minutes ago</time></a></li>
+						
+					</ul>
+
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>2</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>6</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/duong-tu-sg-di-thanh-pho-moi-binh-duong-co-ket-xe.203891/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:49:45+0700" data-time="1609228185" data-date-string="Dec 29, 2020" data-time-string="2:49 PM" title="Dec 29, 2020 at 2:49 PM">A moment ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/iwanttorelax2013.1325083/" class="username " dir="auto" itemprop="name" data-user-id="1325083" data-xf-init="member-tooltip">iwanttorelax2013</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/iwanttorelax2013.1325083/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1325083" data-xf-init="member-tooltip" style="background-color: #adcc33; color: #343d0f">
+			<span class="avatar-u1325083-s">I</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203895" data-author="olDilard">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/oldilard.1707002/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1707002" data-xf-init="member-tooltip" style="background-color: #85e0e0; color: #248f8f">
+			<span class="avatar-u1707002-s">O</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/luu-danh-sach-ignore-duoc-ko-cac-me.203895/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/luu-danh-sach-ignore-duoc-ko-cac-me.203895/preview">Lưu danh sách ignore được ko các mẹ?</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/oldilard.1707002/" class="username " dir="auto" itemprop="name" data-user-id="1707002" data-xf-init="member-tooltip">olDilard</a></li>
+						<li class="structItem-startDate"><a href="/t/luu-danh-sach-ignore-duoc-ko-cac-me.203895/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T14:49:21+0700" data-time="1609228161" data-date-string="Dec 29, 2020" data-time-string="2:49 PM" title="Dec 29, 2020 at 2:49 PM">1 minute ago</time></a></li>
+						
+					</ul>
+
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>0</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>1</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/luu-danh-sach-ignore-duoc-ko-cac-me.203895/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:49:21+0700" data-time="1609228161" data-date-string="Dec 29, 2020" data-time-string="2:49 PM" title="Dec 29, 2020 at 2:49 PM">1 minute ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/oldilard.1707002/" class="username " dir="auto" itemprop="name" data-user-id="1707002" data-xf-init="member-tooltip">olDilard</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/oldilard.1707002/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1707002" data-xf-init="member-tooltip" style="background-color: #85e0e0; color: #248f8f">
+			<span class="avatar-u1707002-s">O</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203869" data-author="nhat2009bs">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/nhat2009bs.367380/" class="avatar avatar--s" data-user-id="367380" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/367/367380.jpg?1588149037" srcset="/data/avatars/m/367/367380.jpg?1588149037 2x" alt="nhat2009bs" class="avatar-u367380-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/cac-thim-nghi-gi-ve-chuyen-trinh-tiet.203869/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/cac-thim-nghi-gi-ve-chuyen-trinh-tiet.203869/preview">Các thím nghĩ gì về chuyện trinh tiết</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/nhat2009bs.367380/" class="username " dir="auto" itemprop="name" data-user-id="367380" data-xf-init="member-tooltip">nhat2009bs</a></li>
+						<li class="structItem-startDate"><a href="/t/cac-thim-nghi-gi-ve-chuyen-trinh-tiet.203869/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T14:06:22+0700" data-time="1609225582" data-date-string="Dec 29, 2020" data-time-string="2:06 PM" title="Dec 29, 2020 at 2:06 PM">44 minutes ago</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/cac-thim-nghi-gi-ve-chuyen-trinh-tiet.203869/page-2">2</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 1">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>39</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>665</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/cac-thim-nghi-gi-ve-chuyen-trinh-tiet.203869/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:49:21+0700" data-time="1609228161" data-date-string="Dec 29, 2020" data-time-string="2:49 PM" title="Dec 29, 2020 at 2:49 PM">1 minute ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/mr-chala.1688997/" class="username " dir="auto" itemprop="name" data-user-id="1688997" data-xf-init="member-tooltip">Mr.chala</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/mr-chala.1688997/" class="avatar avatar--xxs" data-user-id="1688997" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1688/1688997.jpg?1603167097"  alt="Mr.chala" class="avatar-u1688997-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203364" data-author="Gió lạnh đầu mùa">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/gio-lanh-dau-mua.1689110/" class="avatar avatar--s" data-user-id="1689110" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1689/1689110.jpg?1603088079" srcset="/data/avatars/m/1689/1689110.jpg?1603088079 2x" alt="Gió lạnh đầu mùa" class="avatar-u1689110-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/tam-su-nhieu-khi-biet-ro-minh-vao-kiep-osin-con-cho-nhung-van-lao-dau-vao.203364/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/tam-su-nhieu-khi-biet-ro-minh-vao-kiep-osin-con-cho-nhung-van-lao-dau-vao.203364/preview">[Tâm sự] Nhiều khi biết rõ mình vào kiếp osin/con chó, nhưng vẫn lao đầu vào</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/gio-lanh-dau-mua.1689110/" class="username " dir="auto" itemprop="name" data-user-id="1689110" data-xf-init="member-tooltip">Gió lạnh đầu mùa</a></li>
+						<li class="structItem-startDate"><a href="/t/tam-su-nhieu-khi-biet-ro-minh-vao-kiep-osin-con-cho-nhung-van-lao-dau-vao.203364/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-28T18:08:35+0700" data-time="1609153715" data-date-string="Dec 28, 2020" data-time-string="6:08 PM" title="Dec 28, 2020 at 6:08 PM">Yesterday at 6:08 PM</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/tam-su-nhieu-khi-biet-ro-minh-vao-kiep-osin-con-cho-nhung-van-lao-dau-vao.203364/page-2">2</a>
+						
+							<a href="/t/tam-su-nhieu-khi-biet-ro-minh-vao-kiep-osin-con-cho-nhung-van-lao-dau-vao.203364/page-3">3</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>51</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>2K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/tam-su-nhieu-khi-biet-ro-minh-vao-kiep-osin-con-cho-nhung-van-lao-dau-vao.203364/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:49:05+0700" data-time="1609228145" data-date-string="Dec 29, 2020" data-time-string="2:49 PM" title="Dec 29, 2020 at 2:49 PM">1 minute ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/halinhnhp.1513086/" class="username " dir="auto" itemprop="name" data-user-id="1513086" data-xf-init="member-tooltip">HaLinhNHP</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/halinhnhp.1513086/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1513086" data-xf-init="member-tooltip" style="background-color: #5c7ad6; color: #1a2d66">
+			<span class="avatar-u1513086-s">H</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-201363" data-author="LeMinhQuocThang">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/leminhquocthang.1201661/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1201661" data-xf-init="member-tooltip" style="background-color: #cc6666; color: #602020">
+			<span class="avatar-u1201661-s">L</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/cap-nhat-tinh-hinh-thuong-tet-tay-2021-cua-may-thim-di.201363/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/cap-nhat-tinh-hinh-thuong-tet-tay-2021-cua-may-thim-di.201363/preview">Cập nhật tình hình thưởng tết Tây 2021 của mấy thím đi</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/leminhquocthang.1201661/" class="username " dir="auto" itemprop="name" data-user-id="1201661" data-xf-init="member-tooltip">LeMinhQuocThang</a></li>
+						<li class="structItem-startDate"><a href="/t/cap-nhat-tinh-hinh-thuong-tet-tay-2021-cua-may-thim-di.201363/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-25T10:44:33+0700" data-time="1608867873" data-date-string="Dec 25, 2020" data-time-string="10:44 AM" title="Dec 25, 2020 at 10:44 AM">Friday at 10:44 AM</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/cap-nhat-tinh-hinh-thuong-tet-tay-2021-cua-may-thim-di.201363/page-6">6</a>
+						
+							<a href="/t/cap-nhat-tinh-hinh-thuong-tet-tay-2021-cua-may-thim-di.201363/page-7">7</a>
+						
+							<a href="/t/cap-nhat-tinh-hinh-thuong-tet-tay-2021-cua-may-thim-di.201363/page-8">8</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: -1">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>146</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>8K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/cap-nhat-tinh-hinh-thuong-tet-tay-2021-cua-may-thim-di.201363/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:48:57+0700" data-time="1609228137" data-date-string="Dec 29, 2020" data-time-string="2:48 PM" title="Dec 29, 2020 at 2:48 PM">1 minute ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/chaien-s-mother.1678586/" class="username " dir="auto" itemprop="name" data-user-id="1678586" data-xf-init="member-tooltip">Chaien 's mother</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/chaien-s-mother.1678586/" class="avatar avatar--xxs" data-user-id="1678586" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1678/1678586.jpg?1597850082"  alt="Chaien 's mother" class="avatar-u1678586-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203877" data-author="Chiến Sĩ Online">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/chien-si-online.1708575/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1708575" data-xf-init="member-tooltip" style="background-color: #663399; color: #bf9fdf">
+			<span class="avatar-u1708575-s">C</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/may-thanh-nien-hao-phong-tang-ip-cho-gai-thi-da-bao-hieu-bo-me-duoc-dong-nao-chua.203877/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/may-thanh-nien-hao-phong-tang-ip-cho-gai-thi-da-bao-hieu-bo-me-duoc-dong-nao-chua.203877/preview">Mấy thanh niên hào phóng tặng IP cho Gái thì đã báo hiếu bố mẹ được đồng nào chưa ?</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/chien-si-online.1708575/" class="username " dir="auto" itemprop="name" data-user-id="1708575" data-xf-init="member-tooltip">Chiến Sĩ Online</a></li>
+						<li class="structItem-startDate"><a href="/t/may-thanh-nien-hao-phong-tang-ip-cho-gai-thi-da-bao-hieu-bo-me-duoc-dong-nao-chua.203877/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T14:26:28+0700" data-time="1609226788" data-date-string="Dec 29, 2020" data-time-string="2:26 PM" title="Dec 29, 2020 at 2:26 PM">24 minutes ago</time></a></li>
+						
+					</ul>
+
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: -1">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>15</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>215</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/may-thanh-nien-hao-phong-tang-ip-cho-gai-thi-da-bao-hieu-bo-me-duoc-dong-nao-chua.203877/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:48:43+0700" data-time="1609228123" data-date-string="Dec 29, 2020" data-time-string="2:48 PM" title="Dec 29, 2020 at 2:48 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/thanhbeo94.1678488/" class="username " dir="auto" itemprop="name" data-user-id="1678488" data-xf-init="member-tooltip">thanhbeo94</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/thanhbeo94.1678488/" class="avatar avatar--xxs" data-user-id="1678488" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1678/1678488.jpg?1597827166"  alt="thanhbeo94" class="avatar-u1678488-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203070" data-author="Orihime">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/orihime.1131880/" class="avatar avatar--s" data-user-id="1131880" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1131/1131880.jpg?1608171014" srcset="/data/avatars/m/1131/1131880.jpg?1608171014 2x" alt="Orihime" class="avatar-u1131880-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/hay-di-kham-rang-ngay-truoc-khi-qua-muon.203070/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/hay-di-kham-rang-ngay-truoc-khi-qua-muon.203070/preview">Hãy đi khám răng ngay trước khi quá muộn.</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/orihime.1131880/" class="username " dir="auto" itemprop="name" data-user-id="1131880" data-xf-init="member-tooltip">Orihime</a></li>
+						<li class="structItem-startDate"><a href="/t/hay-di-kham-rang-ngay-truoc-khi-qua-muon.203070/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-28T10:30:32+0700" data-time="1609126232" data-date-string="Dec 28, 2020" data-time-string="10:30 AM" title="Dec 28, 2020 at 10:30 AM">Yesterday at 10:30 AM</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/hay-di-kham-rang-ngay-truoc-khi-qua-muon.203070/page-3">3</a>
+						
+							<a href="/t/hay-di-kham-rang-ngay-truoc-khi-qua-muon.203070/page-4">4</a>
+						
+							<a href="/t/hay-di-kham-rang-ngay-truoc-khi-qua-muon.203070/page-5">5</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 5">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>90</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>5K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/hay-di-kham-rang-ngay-truoc-khi-qua-muon.203070/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:48:37+0700" data-time="1609228117" data-date-string="Dec 29, 2020" data-time-string="2:48 PM" title="Dec 29, 2020 at 2:48 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/ip2.1011464/" class="username " dir="auto" itemprop="name" data-user-id="1011464" data-xf-init="member-tooltip">IP2</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/ip2.1011464/" class="avatar avatar--xxs" data-user-id="1011464" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1011/1011464.jpg?1591067788"  alt="IP2" class="avatar-u1011464-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-198149" data-author="buonbuon297">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/buonbuon297.1375084/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1375084" data-xf-init="member-tooltip" style="background-color: #2966a3; color: #99bfe6">
+			<span class="avatar-u1375084-s">B</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/2-co-gai.198149/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/2-co-gai.198149/preview">2 cô gái</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/buonbuon297.1375084/" class="username " dir="auto" itemprop="name" data-user-id="1375084" data-xf-init="member-tooltip">buonbuon297</a></li>
+						<li class="structItem-startDate"><a href="/t/2-co-gai.198149/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-19T20:02:03+0700" data-time="1608382923" data-date-string="Dec 19, 2020" data-time-string="8:02 PM" title="Dec 19, 2020 at 8:02 PM">Dec 19, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/2-co-gai.198149/page-2">2</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: -1">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>30</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>2K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/2-co-gai.198149/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:48:28+0700" data-time="1609228108" data-date-string="Dec 29, 2020" data-time-string="2:48 PM" title="Dec 29, 2020 at 2:48 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/natsuchecker.1703999/" class="username " dir="auto" itemprop="name" data-user-id="1703999" data-xf-init="member-tooltip">natsuchecker</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/natsuchecker.1703999/" class="avatar avatar--xxs" data-user-id="1703999" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1703/1703999.jpg?1607069687"  alt="natsuchecker" class="avatar-u1703999-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203771" data-author="sprite">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/sprite.12119/" class="avatar avatar--s" data-user-id="12119" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/12/12119.jpg?1605051900" srcset="/data/avatars/m/12/12119.jpg?1605051900 2x" alt="sprite" class="avatar-u12119-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/dich-vu-massage-lanh-manh-tai-nha-add-zalo-tiep-thi-co-hinh.203771/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/dich-vu-massage-lanh-manh-tai-nha-add-zalo-tiep-thi-co-hinh.203771/preview">Dịch vụ massage lành mạnh tại nhà add zalo tiếp thị (có hình)</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/sprite.12119/" class="username " dir="auto" itemprop="name" data-user-id="12119" data-xf-init="member-tooltip">sprite</a></li>
+						<li class="structItem-startDate"><a href="/t/dich-vu-massage-lanh-manh-tai-nha-add-zalo-tiep-thi-co-hinh.203771/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T11:28:31+0700" data-time="1609216111" data-date-string="Dec 29, 2020" data-time-string="11:28 AM" title="Dec 29, 2020 at 11:28 AM">Today at 11:28 AM</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/dich-vu-massage-lanh-manh-tai-nha-add-zalo-tiep-thi-co-hinh.203771/page-2">2</a>
+						
+							<a href="/t/dich-vu-massage-lanh-manh-tai-nha-add-zalo-tiep-thi-co-hinh.203771/page-3">3</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 2">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>58</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>4K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/dich-vu-massage-lanh-manh-tai-nha-add-zalo-tiep-thi-co-hinh.203771/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:48:13+0700" data-time="1609228093" data-date-string="Dec 29, 2020" data-time-string="2:48 PM" title="Dec 29, 2020 at 2:48 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/y-a-u-a.562207/" class="username " dir="auto" itemprop="name" data-user-id="562207" data-xf-init="member-tooltip">[Y]a[U]a</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/y-a-u-a.562207/" class="avatar avatar--xxs" data-user-id="562207" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/562/562207.jpg?1590972617"  alt="[Y]a[U]a" class="avatar-u562207-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-197729" data-author="The.Sagittarius">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/the-sagittarius.1092648/" class="avatar avatar--s" data-user-id="1092648" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1092/1092648.jpg?1603245452" srcset="/data/avatars/m/1092/1092648.jpg?1603245452 2x" alt="The.Sagittarius" class="avatar-u1092648-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/tong-hop-cac-khuyen-mai.197729/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/tong-hop-cac-khuyen-mai.197729/preview">Tổng hợp các khuyến mãi</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/the-sagittarius.1092648/" class="username " dir="auto" itemprop="name" data-user-id="1092648" data-xf-init="member-tooltip">The.Sagittarius</a></li>
+						<li class="structItem-startDate"><a href="/t/tong-hop-cac-khuyen-mai.197729/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-19T00:58:36+0700" data-time="1608314316" data-date-string="Dec 19, 2020" data-time-string="12:58 AM" title="Dec 19, 2020 at 12:58 AM">Dec 19, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/tong-hop-cac-khuyen-mai.197729/page-2">2</a>
+						
+							<a href="/t/tong-hop-cac-khuyen-mai.197729/page-3">3</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 2">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>54</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>4K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/tong-hop-cac-khuyen-mai.197729/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:48:02+0700" data-time="1609228082" data-date-string="Dec 29, 2020" data-time-string="2:48 PM" title="Dec 29, 2020 at 2:48 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/the-sagittarius.1092648/" class="username " dir="auto" itemprop="name" data-user-id="1092648" data-xf-init="member-tooltip">The.Sagittarius</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/the-sagittarius.1092648/" class="avatar avatar--xxs" data-user-id="1092648" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1092/1092648.jpg?1603245452"  alt="The.Sagittarius" class="avatar-u1092648-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-132588" data-author="Biết Đâu Bất Ngờ">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/biet-dau-bat-ngo.1679745/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1679745" data-xf-init="member-tooltip" style="background-color: #a32985; color: #e699d2">
+			<span class="avatar-u1679745-s">B</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/bo-undercut-di-day-moi-la-kieu-toc-hop-nhat-voi-dan-viet.132588/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/bo-undercut-di-day-moi-la-kieu-toc-hop-nhat-voi-dan-viet.132588/preview">Bỏ undercut đi, đây mới là kiểu tóc hợp nhất với dân Việt</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/biet-dau-bat-ngo.1679745/" class="username " dir="auto" itemprop="name" data-user-id="1679745" data-xf-init="member-tooltip">Biết Đâu Bất Ngờ</a></li>
+						<li class="structItem-startDate"><a href="/t/bo-undercut-di-day-moi-la-kieu-toc-hop-nhat-voi-dan-viet.132588/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-09-14T14:11:42+0700" data-time="1600067502" data-date-string="Sep 14, 2020" data-time-string="2:11 PM" title="Sep 14, 2020 at 2:11 PM">Sep 14, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/bo-undercut-di-day-moi-la-kieu-toc-hop-nhat-voi-dan-viet.132588/page-13">13</a>
+						
+							<a href="/t/bo-undercut-di-day-moi-la-kieu-toc-hop-nhat-voi-dan-viet.132588/page-14">14</a>
+						
+							<a href="/t/bo-undercut-di-day-moi-la-kieu-toc-hop-nhat-voi-dan-viet.132588/page-15">15</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: -5">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>284</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>39K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/bo-undercut-di-day-moi-la-kieu-toc-hop-nhat-voi-dan-viet.132588/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:48:00+0700" data-time="1609228080" data-date-string="Dec 29, 2020" data-time-string="2:48 PM" title="Dec 29, 2020 at 2:48 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/scummmm_0608.1697048/" class="username " dir="auto" itemprop="name" data-user-id="1697048" data-xf-init="member-tooltip">Scummmm_0608</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/scummmm_0608.1697048/" class="avatar avatar--xxs" data-user-id="1697048" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1697/1697048.jpg?1605522282"  alt="Scummmm_0608" class="avatar-u1697048-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203363" data-author="congchuabebong">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/congchuabebong.42722/" class="avatar avatar--s" data-user-id="42722" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/42/42722.jpg?1583730353" srcset="/data/avatars/m/42/42722.jpg?1583730353 2x" alt="congchuabebong" class="avatar-u42722-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/toi-nay-toi-di-tan-gai.203363/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/toi-nay-toi-di-tan-gai.203363/preview">tối nay, tôi đi tán gái :)))</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/congchuabebong.42722/" class="username " dir="auto" itemprop="name" data-user-id="42722" data-xf-init="member-tooltip">congchuabebong</a></li>
+						<li class="structItem-startDate"><a href="/t/toi-nay-toi-di-tan-gai.203363/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-28T18:08:13+0700" data-time="1609153693" data-date-string="Dec 28, 2020" data-time-string="6:08 PM" title="Dec 28, 2020 at 6:08 PM">Yesterday at 6:08 PM</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/toi-nay-toi-di-tan-gai.203363/page-4">4</a>
+						
+							<a href="/t/toi-nay-toi-di-tan-gai.203363/page-5">5</a>
+						
+							<a href="/t/toi-nay-toi-di-tan-gai.203363/page-6">6</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>103</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>6K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/toi-nay-toi-di-tan-gai.203363/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:47:51+0700" data-time="1609228071" data-date-string="Dec 29, 2020" data-time-string="2:47 PM" title="Dec 29, 2020 at 2:47 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/chaien-s-mother.1678586/" class="username " dir="auto" itemprop="name" data-user-id="1678586" data-xf-init="member-tooltip">Chaien 's mother</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/chaien-s-mother.1678586/" class="avatar avatar--xxs" data-user-id="1678586" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1678/1678586.jpg?1597850082"  alt="Chaien 's mother" class="avatar-u1678586-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203888" data-author="Snow Bunny">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/snow-bunny.1463806/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1463806" data-xf-init="member-tooltip" style="background-color: #a34729; color: #e6ac99">
+			<span class="avatar-u1463806-s">S</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/ban-ve-chuyen-di-tu-khi-quan-he-voi-con-gai-duoi-16-tuoi.203888/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/ban-ve-chuyen-di-tu-khi-quan-he-voi-con-gai-duoi-16-tuoi.203888/preview">Bàn về chuyện đi tù khi quan hệ với con gái dưới 16 tuổi</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/snow-bunny.1463806/" class="username " dir="auto" itemprop="name" data-user-id="1463806" data-xf-init="member-tooltip">Snow Bunny</a></li>
+						<li class="structItem-startDate"><a href="/t/ban-ve-chuyen-di-tu-khi-quan-he-voi-con-gai-duoi-16-tuoi.203888/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-29T14:37:23+0700" data-time="1609227443" data-date-string="Dec 29, 2020" data-time-string="2:37 PM" title="Dec 29, 2020 at 2:37 PM">13 minutes ago</time></a></li>
+						
+					</ul>
+
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: -11">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>13</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>201</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/ban-ve-chuyen-di-tu-khi-quan-he-voi-con-gai-duoi-16-tuoi.203888/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:47:50+0700" data-time="1609228070" data-date-string="Dec 29, 2020" data-time-string="2:47 PM" title="Dec 29, 2020 at 2:47 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/oldilard.1707002/" class="username " dir="auto" itemprop="name" data-user-id="1707002" data-xf-init="member-tooltip">olDilard</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/oldilard.1707002/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1707002" data-xf-init="member-tooltip" style="background-color: #85e0e0; color: #248f8f">
+			<span class="avatar-u1707002-s">O</span> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-181124" data-author="Thanh Pho Mong Mo">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/thanh-pho-mong-mo.1676997/" class="avatar avatar--s" data-user-id="1676997" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1676/1676997.jpg?1594743365" srcset="/data/avatars/m/1676/1676997.jpg?1594743365 2x" alt="Thanh Pho Mong Mo" class="avatar-u1676997-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+				<ul class="structItem-statuses">
+				
+				
+					
+					
+					
+					
+					
+
+					
+						
+					
+
+					
+					
+
+					
+					
+						
+							
+								
+								
+									<li>
+										
+										<i class="fa--xf far fa-chart-bar structItem-status" aria-hidden="true" title="Poll"></i>
+										<span class="u-srOnly">Poll</span>
+									</li>
+								
+							
+						
+					
+				
+				
+				</ul>
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/kieu-body-gym-nao-dep-nhat.181124/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/kieu-body-gym-nao-dep-nhat.181124/preview">Kiểu body gym nào đẹp nhất</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/thanh-pho-mong-mo.1676997/" class="username " dir="auto" itemprop="name" data-user-id="1676997" data-xf-init="member-tooltip">Thanh Pho Mong Mo</a></li>
+						<li class="structItem-startDate"><a href="/t/kieu-body-gym-nao-dep-nhat.181124/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-11-22T00:21:23+0700" data-time="1605979283" data-date-string="Nov 22, 2020" data-time-string="12:21 AM" title="Nov 22, 2020 at 12:21 AM">Nov 22, 2020</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/kieu-body-gym-nao-dep-nhat.181124/page-3">3</a>
+						
+							<a href="/t/kieu-body-gym-nao-dep-nhat.181124/page-4">4</a>
+						
+							<a href="/t/kieu-body-gym-nao-dep-nhat.181124/page-5">5</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 1">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>83</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>5K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/kieu-body-gym-nao-dep-nhat.181124/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:47:48+0700" data-time="1609228068" data-date-string="Dec 29, 2020" data-time-string="2:47 PM" title="Dec 29, 2020 at 2:47 PM">2 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/cohinhnhungvandeotin.1696884/" class="username " dir="auto" itemprop="name" data-user-id="1696884" data-xf-init="member-tooltip">CóHìnhNhưngVẫnĐéoTin</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/cohinhnhungvandeotin.1696884/" class="avatar avatar--xxs" data-user-id="1696884" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1696/1696884.jpg?1605520107"  alt="CóHìnhNhưngVẫnĐéoTin" class="avatar-u1696884-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+									
+
+	
+
+	<div class="structItem structItem--thread js-inlineModContainer js-threadListItem-203541" data-author="gaigoilan">
+
+	
+		<div class="structItem-cell structItem-cell--icon">
+			<div class="structItem-iconContainer">
+				<a href="/u/gaigoilan.150213/" class="avatar avatar--s" data-user-id="150213" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/150/150213.jpg?1609005743" srcset="/data/avatars/m/150/150213.jpg?1609005743 2x" alt="gaigoilan" class="avatar-u150213-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+			
+
+			<div class="structItem-title">
+				
+				
+				<a href="/t/vozer-co-ai-biet-tieng-trung-hay-biet-ve-ca-si-nay-ko.203541/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/t/vozer-co-ai-biet-tieng-trung-hay-biet-ve-ca-si-nay-ko.203541/preview">Vozer có ai biết tiếng Trung hay biết về ca sĩ này ko?</a>
+			</div>
+
+			<div class="structItem-minor">
+				
+
+				
+					<ul class="structItem-parts">
+						<li><a href="/u/gaigoilan.150213/" class="username " dir="auto" itemprop="name" data-user-id="150213" data-xf-init="member-tooltip">gaigoilan</a></li>
+						<li class="structItem-startDate"><a href="/t/vozer-co-ai-biet-tieng-trung-hay-biet-ve-ca-si-nay-ko.203541/" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2020-12-28T22:41:11+0700" data-time="1609170071" data-date-string="Dec 28, 2020" data-time-string="10:41 PM" title="Dec 28, 2020 at 10:41 PM">Yesterday at 10:41 PM</time></a></li>
+						
+					</ul>
+
+					
+						<span class="structItem-pageJump">
+						
+							<a href="/t/vozer-co-ai-biet-tieng-trung-hay-biet-ve-ca-si-nay-ko.203541/page-4">4</a>
+						
+							<a href="/t/vozer-co-ai-biet-tieng-trung-hay-biet-ve-ca-si-nay-ko.203541/page-5">5</a>
+						
+							<a href="/t/vozer-co-ai-biet-tieng-trung-hay-biet-ve-ca-si-nay-ko.203541/page-6">6</a>
+						
+						</span>
+					
+				
+			</div>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--meta" title="First message reaction score: 5">
+			<dl class="pairs pairs--justified">
+				<dt>Replies</dt>
+				<dd>104</dd>
+			</dl>
+			<dl class="pairs pairs--justified structItem-minor">
+				<dt>Views</dt>
+				<dd>2K</dd>
+			</dl>
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--latest">
+			
+				<a href="/t/vozer-co-ai-biet-tieng-trung-hay-biet-ve-ca-si-nay-ko.203541/latest" rel="nofollow"><time  class="structItem-latestDate u-dt" dir="auto" datetime="2020-12-29T14:47:17+0700" data-time="1609228037" data-date-string="Dec 29, 2020" data-time-string="2:47 PM" title="Dec 29, 2020 at 2:47 PM">3 minutes ago</time></a>
+				<div class="structItem-minor">
+					
+						<a href="/u/kun_mr-liar3.1259607/" class="username " dir="auto" itemprop="name" data-user-id="1259607" data-xf-init="member-tooltip">kun_mr.liar3</a>
+					
+				</div>
+			
+		</div>
+	
+
+	
+		<div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+			<div class="structItem-iconContainer">
+				
+					<a href="/u/kun_mr-liar3.1259607/" class="avatar avatar--xxs" data-user-id="1259607" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/1259/1259607.jpg?1606102546"  alt="kun_mr.liar3" class="avatar-u1259607-s" width="48" height="48" loading="lazy" /> 
+		</a>
+				
+			</div>
+		</div>
+	
+
+	</div>
+
+								
+								
+							
+						</div>
+					
+				</div>
+			
+		</div>
+	</div>
+
+	<div class="block-outer block-outer--after">
+		<div class="block-outer-main"><nav class="pageNavWrapper pageNavWrapper--mixed ">
+
+
+
+<div class="pageNav  pageNav--skipEnd">
+	
+
+	<ul class="pageNav-main">
+		
+
+	
+		<li class="pageNav-page pageNav-page--current "><a href="/f/chuyen-tro-linh-tinh.17/">1</a></li>
+	
+
+
+		
+
+		
+			
+
+	
+		<li class="pageNav-page pageNav-page--later"><a href="/f/chuyen-tro-linh-tinh.17/page-2">2</a></li>
+	
+
+		
+			
+
+	
+		<li class="pageNav-page pageNav-page--later"><a href="/f/chuyen-tro-linh-tinh.17/page-3">3</a></li>
+	
+
+		
+
+		
+			
+				<li class="pageNav-page pageNav-page--skip pageNav-page--skipEnd">
+					<a data-xf-init="tooltip" title="Go to page"
+						data-xf-click="menu"
+						role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">…</a>
+					
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/f/chuyen-tro-linh-tinh.17/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="4"  min="1" max="2082" step="1" required="required" data-menu-autofocus="true" /></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+				</li>
+			
+		
+
+		
+
+	
+		<li class="pageNav-page "><a href="/f/chuyen-tro-linh-tinh.17/page-2082">2082</a></li>
+	
+
+	</ul>
+
+	
+		<a href="/f/chuyen-tro-linh-tinh.17/page-2" class="pageNav-jump pageNav-jump--next">Next</a>
+	
+</div>
+
+<div class="pageNavSimple">
+	
+
+	<a class="pageNavSimple-el pageNavSimple-el--current"
+		data-xf-init="tooltip" title="Go to page"
+		data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">
+		1 of 2082
+	</a>
+	
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/f/chuyen-tro-linh-tinh.17/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="1"  min="1" max="2082" step="1" required="required" data-menu-autofocus="true" /></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+		<a href="/f/chuyen-tro-linh-tinh.17/page-2" class="pageNavSimple-el pageNavSimple-el--next">
+			Next <i aria-hidden="true"></i>
+		</a>
+		<a href="/f/chuyen-tro-linh-tinh.17/page-2082"
+			class="pageNavSimple-el pageNavSimple-el--last"
+			data-xf-init="tooltip" title="Last">
+			<i aria-hidden="true"></i> <span class="u-srOnly">Last</span>
+		</a>
+	
+</div>
+
+</nav>
+
+
+
+</div>
+		
+		
+			<div class="block-outer-opposite">
+				
+					<a href="/login/" class="button--link button--wrap button" data-xf-click="overlay"><span class="button-text">
+						You must log in or register to post here.
+					</span></a>
+				
+			</div>
+		
+	</div>
+</div>
+
+
+
+	
+	
+<!-- /21945350649/voz_vn__site__bottom -->
+<div id='div-gpt-ad-1594315183557-0' class='block block-container gamau voz_vn__site__bottom'>
+	<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1594315183557-0'); });</script>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+				
+			</div>
+
+			
+				<div class="p-body-sidebar">
+					<div class="p-body-sidebar__container">
+						
+						
+							<!-- /21945350649/voz_vn__site__side -->
+<div id='div-gpt-ad-1594203082552-0' class='block block-container gamau voz_vn__site__side'>
+	<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1594203082552-0'); });</script>
+</div>
+
+
+
+	<div class="block" data-widget-id="15" data-widget-key="share_this_page" data-widget-definition="share_page">
+		<div class="block-container">
+			<h3 class="block-minorHeader">Share this page</h3>
+			<div class="block-body block-row">
+				
+					
+
+	
+		
+
+		<div class="shareButtons shareButtons--iconic" data-xf-init="share-buttons" data-page-url="" data-page-title="" data-page-desc="" data-page-image="">
+			
+
+			<div class="shareButtons-buttons">
+				
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--facebook" data-href="https://www.facebook.com/sharer.php?u={url}">
+							<i aria-hidden="true"></i>
+							<span>Facebook</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--twitter" data-href="https://twitter.com/intent/tweet?url={url}&amp;text={title}">
+							<i aria-hidden="true"></i>
+							<span>Twitter</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--reddit" data-href="https://reddit.com/submit?url={url}&amp;title={title}">
+							<i aria-hidden="true"></i>
+							<span>Reddit</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--pinterest" data-href="https://pinterest.com/pin/create/bookmarklet/?url={url}&amp;description={title}&amp;media={image}">
+							<i aria-hidden="true"></i>
+							<span>Pinterest</span>
+						</a>
+					
+
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--whatsApp" data-href="https://api.whatsapp.com/send?text={title}&nbsp;{url}">
+							<i aria-hidden="true"></i>
+							<span>WhatsApp</span>
+						</a>
+					
+
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--share is-hidden"
+							data-xf-init="web-share"
+							data-title="" data-text="" data-url=""
+							data-hide=".shareButtons-button:not(.shareButtons-button--share)">
+
+							<i aria-hidden="true"></i>
+							<span>Share</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--link is-hidden" data-clipboard="{url}">
+							<i aria-hidden="true"></i>
+							<span>Link</span>
+						</a>
+					
+				
+			</div>
+		</div>
+	
+
+				
+			</div>
+		</div>
+	</div>
+						
+						
+					</div>
+				</div>
+			
+		</div>
+
+		
+		
+	
+		<ul class="p-breadcrumbs p-breadcrumbs--bottom"
+			itemscope itemtype="https://schema.org/BreadcrumbList">
+		
+			
+
+			
+			
+				
+				
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="/" itemprop="item">
+			<span itemprop="name">Forums</span>
+		</a>
+		<meta itemprop="position" content="1" />
+	</li>
+
+			
+
+			
+			
+				
+				
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="/#khu-vui-choi-giai-tri.16" itemprop="item">
+			<span itemprop="name">Khu vui chơi giải trí</span>
+		</a>
+		<meta itemprop="position" content="2" />
+	</li>
+
+			
+
+		
+		</ul>
+	
+
+		
+
+	
+	
+
+	
+	
+
+
+	</div>
+</div>
+
+<footer class="p-footer" id="footer">
+	<div class="p-footer-inner">
+
+		<div class="p-footer-row">
+			
+			<div class="p-footer-row-opposite">
+				<ul class="p-footer-linkList">
+					
+						
+							<li><a href="/misc/contact" data-xf-click="overlay">Contact us</a></li>
+						
+					
+
+					
+						<li><a href="/help/terms/">Terms and rules</a></li>
+					
+
+					
+						<li><a href="/help/privacy-policy/">Privacy policy</a></li>
+					
+
+					
+						<li><a href="/help/">Help</a></li>
+					
+
+					
+
+					<li><a href="/f/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf far fa-rss" aria-hidden="true"></i><span class="u-srOnly">RSS</span></span></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="p-footer-row">
+			<h3>
+				Thương hiệu tài trợ
+			</h3>
+		</div>
+		<div class="p-footer-row sponsors">
+			<a class="tooltip-holder" target="_blank" href="https://atpacademy.vn/"><img alt="atpacademy" class="imgsponsor" loading="lazy" src="https://2.pik.vn/202000e20182-9c74-4c0b-ae8c-8c87b6aa0f7c.png"><span>ATP Academy - Nền tảng học trực tuyến hàng đầu Việt Nam cung cấp những khóa học thực tế về khởi nghiệp kinh doanh online, kiến thức Digital Marketing,... </span></a>
+			<a class="tooltip-holder" target="_blank" href="https://www.dell.com/"><img alt="dell" class="imgsponsor" loading="lazy" src="https://2.pik.vn/2020cbecf261-6857-4540-90aa-58d2ac6e2101.png"><span>Find the latest Dell computers that truly perform in both home entertainment and home office here.</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://www.fiahub.com?referral=MARKETING&utm_source=voz&utm_medium=logo&utm_campaign=website-logo&utm_term=mua-bitcoin"><img alt="fiahub" class="imgsponsor" loading="lazy" src="https://2.pik.vn/2020b326f101-2ea7-45b0-a0f7-60b8966d0b27.png"><span>Fiahub - Nơi mua bán Bitcoin, Ethereum... uy tín, phí thấp, giá tốt. Giao dịch tiền ảo tại Việt Nam nhanh chóng, khớp lệnh ngay lập tức với đúng mức giá bạn mong muốn.</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://startee.vn/"><img alt="startee" class="imgsponsor" loading="lazy" src="https://2.pik.vn/20208bda3796-2d7b-457a-86ac-27b081601d6a.png"><span>Cung cấp áo in theo yêu cầu, đồng phục, sản xuất thời trang chất lượng cao với công nghệ vải và in số 1 Việt Nam.</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://tinhocngoisao.com/"><img alt="tinhocngoisao" class="imgsponsor" loading="lazy" src="https://2.pik.vn/20209dd18e3f-5517-4bfb-878e-5a387c93a99f.png"><span>Cung cấp linh kiện pc, laptop cũ và mới, lắp đặt phòng nét trọn gói. <br>Bảo Hành Nhanh Chóng Với Chính Sách Bảo Hành 1 Đổi 1<br>Đội Ngũ Nhân Viên Thân Thiện và Chuyên Nghiệp</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://www.t-rex.exchange/btc"><img alt="t-rex" class="imgsponsor" loading="lazy" src="https://2.pik.vn/2020c81eccd4-6801-4831-bf9a-4121c03889c1.png"><span>[T-REX] Sàn Mua Bán Bitcoin BTC An Toàn Nhanh Chóng Uy Tín Tại Việt Nam</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://truoctrandau.com/"><img alt="truoctrandau" class="imgsponsor" loading="lazy" src="https://2.pik.vn/2020611e895f-2d32-4267-ad4b-0b8fe4910b12.png"><span>Nhận định bóng đá hôm nay</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://tucano.vn/"><img alt="tucano" class="imgsponsor" loading="lazy" src="https://2.pik.vn/20202f6b57e3-1dd0-4767-bd87-59b72d566281.png"><span>TUCANO - Thương hiệu Balo Túi xách đẳng cấp từ Milan (Italy) - Sáng tạo &amp; thấu hiểu người dùng cho một phong cách sống chất lượng &amp; đẳng cấp. TUCANO được ủy quyền phân phối chính thức bởi SENCOVIETNAM.</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://www.vietjetair.com/"><img alt="vietjetair" class="imgsponsor" loading="lazy" src="https://2.pik.vn/2020f483b70b-e290-4595-8224-5a8d6fb748cc.png"><span>Bay Nội địa - Bay Quốc tế - Giá siêu rẻ - Đặt vé trực tuyến nhanh chóng đơn giản.</span></a>
+			<a class="tooltip-holder" target="_blank" href="https://vietpn.com/"><img alt="vietpn" class="imgsponsor" loading="lazy" src="https://2.pik.vn/2020272826a0-14b4-47ca-ae57-61431e05c774.png"><span>Cung cấp các giải pháp VPN, giảm ping chơi game, tăng tốc độ Internet. Không lo đứt cáp quang.</span></a>
+		</div>
+
+		
+			<div class="p-footer-copyright">
+			
+				<a href="https://xenforo.com" class="u-concealed" dir="ltr" target="_blank" rel="sponsored noopener noreferrer">Forum software by XenForo<sup>&reg;</sup> <span class="copyright">&copy; 2010-2020 XenForo Ltd.</span></a>
+				
+			
+			</div>
+		
+		
+		<div class="p-footer-copyright">
+			Chịu trách nhiệm nội dung: Bạch Thành Trung © 2000-2020 Công ty TNHH Thật Vi Diệu<br>
+			ĐC tầng 4, số 6-8 đường D2, phường 25, Bình Thạnh, Hồ Chí Minh, Việt Nam - SĐT 0983757213 - MST 0313906593<br>
+			Giấy phép thiết lập MXH số 334/GP-BTTTT, Ký ngày: 19/08/2019
+		</div>
+
+		
+	</div>
+</footer>
+
+</div> <!-- closing p-pageWrapper -->
+
+<div class="u-bottomFixer js-bottomFixTarget">
+	
+	
+</div>
+
+
+	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
+		<a href="#top" class="button--scroll button" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf far fa-arrow-up" aria-hidden="true"></i><span class="u-srOnly">Top</span></span></a>
+		
+	</div>
+
+
+
+	<script src="/js/vendor/jquery/jquery-3.5.1.min.js?_v=c50a03be"></script>
+	<script src="/js/vendor/vendor-compiled.js?_v=c50a03be"></script>
+	<script src="/js/xf/core-compiled.js?_v=c50a03be"></script>
+	
+	<script>
+		jQuery.extend(true, XF.config, {
+			// 
+			userId: 0,
+			enablePush: true,
+			pushAppServerKey: 'BPPo5ZMIDnGRqO7goDiDVTGXpLgPpw3ftE3AekCNFLCHln2Sj+V+ogaGK/YWlAlTYrsc1Koz6WRkdCoEV0godEE=',
+			url: {
+				fullBase: 'https://voz.vn/',
+				basePath: '/',
+				css: '/css.php?css=__SENTINEL__&s=2&l=1&d=1606933057',
+				keepAlive: '/login/keep-alive'
+			},
+			cookie: {
+				path: '/',
+				domain: '',
+				prefix: 'xf_',
+				secure: true
+			},
+			cacheKey: 'c807ab901f864be855ce325fb5e9a736',
+			csrf: '1609228255,3269e1745cde004e6df1683201d6869e',
+			js: {},
+			css: {"public:share_controls.less":true,"public:structured_list.less":true,"public:extra.less":true},
+			time: {
+				now: 1609228255,
+				today: 1609174800,
+				todayDow: 2,
+				tomorrow: 1609261200,
+				yesterday: 1609088400,
+				week: 1608656400
+			},
+			borderSizeFeature: '4px',
+			fontAwesomeWeight: 'r',
+			enableRtnProtect: true,
+			enableFormSubmitSticky: true,
+			uploadMaxFilesize: 8388608,
+			allowedVideoExtensions: ["m4v","mov","mp4","mp4v","mpeg","mpg","ogv","webm"],
+			allowedAudioExtensions: ["mp3","ogg","wav"],
+			shortcodeToEmoji: true,
+			visitorCounts: {
+				conversations_unread: '0',
+				alerts_unviewed: '0',
+				total_unread: '0',
+				title_count: false,
+				icon_indicator: true
+			},
+			jsState: {},
+			publicMetadataLogoUrl: 'https://voz.vn/styles/next/xenforo/voz-logo-og.png?v=1',
+			publicPushBadgeUrl: 'https://voz.vn/styles/default/xenforo/bell.png'
+		});
+
+		jQuery.extend(XF.phrases, {
+			// 
+			date_x_at_time_y: "{date} at {time}",
+			day_x_at_time_y:  "{day} at {time}",
+			yesterday_at_x:   "Yesterday at {time}",
+			x_minutes_ago:    "{minutes} minutes ago",
+			one_minute_ago:   "1 minute ago",
+			a_moment_ago:     "A moment ago",
+			today_at_x:       "Today at {time}",
+			in_a_moment:      "In a moment",
+			in_a_minute:      "In a minute",
+			in_x_minutes:     "In {minutes} minutes",
+			later_today_at_x: "Later today at {time}",
+			tomorrow_at_x:    "Tomorrow at {time}",
+
+			day0: "Sunday",
+			day1: "Monday",
+			day2: "Tuesday",
+			day3: "Wednesday",
+			day4: "Thursday",
+			day5: "Friday",
+			day6: "Saturday",
+
+			dayShort0: "Sun",
+			dayShort1: "Mon",
+			dayShort2: "Tue",
+			dayShort3: "Wed",
+			dayShort4: "Thu",
+			dayShort5: "Fri",
+			dayShort6: "Sat",
+
+			month0: "January",
+			month1: "February",
+			month2: "March",
+			month3: "April",
+			month4: "May",
+			month5: "June",
+			month6: "July",
+			month7: "August",
+			month8: "September",
+			month9: "October",
+			month10: "November",
+			month11: "December",
+
+			active_user_changed_reload_page: "The active user has changed. Reload the page for the latest version.",
+			server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+			oops_we_ran_into_some_problems: "Oops! We ran into some problems.",
+			oops_we_ran_into_some_problems_more_details_console: "Oops! We ran into some problems. Please try again later. More error details may be in the browser console.",
+			file_too_large_to_upload: "The file is too large to be uploaded.",
+			uploaded_file_is_too_large_for_server_to_process: "The uploaded file is too large for the server to process.",
+			files_being_uploaded_are_you_sure: "Files are still being uploaded. Are you sure you want to submit this form?",
+			attach: "Attach files",
+			rich_text_box: "Rich text box",
+			close: "Close",
+			link_copied_to_clipboard: "Link copied to clipboard.",
+			text_copied_to_clipboard: "Text copied to clipboard.",
+			loading: "Loading…",
+
+			processing: "Processing",
+			'processing...': "Processing…",
+
+			showing_x_of_y_items: "Showing {count} of {total} items",
+			showing_all_items: "Showing all items",
+			no_items_to_display: "No items to display",
+
+			number_button_up: "Increase",
+			number_button_down: "Decrease",
+
+			push_enable_notification_title: "Push notifications enabled successfully at theNEXTvoz",
+			push_enable_notification_body: "Thank you for enabling push notifications!"
+		});
+	</script>
+
+	<form style="display:none" hidden="hidden">
+		<input type="text" name="_xfClientLoadTime" value="" id="_xfClientLoadTime" title="_xfClientLoadTime" tabindex="-1" />
+	</form>
+
+	
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
