@@ -1,9 +1,9 @@
 package model
 
 type Thread struct {
-	Title    string `json:"title,omitempty"`
-	Link     string `json:"link,omitempty"`
-	ThreadId uint64 `json:"thread_id,omitempty" gorm:"primary_key;unique;not null;index"`
+	Title     string `json:"title,omitempty"`
+	Link      string `json:"link,omitempty"`
+	ThreadId  uint64 `json:"thread_id,omitempty" gorm:"primary_key;unique;not null;index"`
 	ParentURL string `json:"parent_url,omitempty"`
 	BaseModel
 }
@@ -18,6 +18,6 @@ type Comment struct {
 	Text       string `json:"text,omitempty"`
 	UserName   string `json:"user_name,omitempty"`
 	TimePosted string `json:"time_posted,omitempty"`
-	Page uint64 `json:"page,omitempty"`
+	Page       uint64 `json:"page,omitempty"`
 	BaseModel
 }

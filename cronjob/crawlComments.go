@@ -55,9 +55,12 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 			return err
 		}
 		color.Green("[%d] Comment %d by user %s saved success!", localCmt.ThreadId, localCmt.CommentId, localCmt.UserName)
+		logger.WithField("text",localCmt.Text).WithField("threadID",localCmt.ThreadId).
+			WithField("commentId",localCmt.CommentId).WithField("username",localCmt.UserName).
+			Info("Comment saved success!")
 		//color.Blue("Content [%s]", localCmt.Text)
 	} else {
-		color.Red("Comment %d by user %s already exists!", localCmt.CommentId, localCmt.UserName)
+		//color.Red("Comment %d by user %s already exists!", localCmt.CommentId, localCmt.UserName)
 		//color.Red("Content: \n%s",localCmt.Text)
 		//color.Red("Link : %s", cmt.Link)
 	}
@@ -102,13 +105,18 @@ func ProcessDesc(e *colly.HTMLElement, threadId uint64, page uint64) *model.Comm
 		color.Red("Res len is not 2 but %d", len(res))
 	}
 
+
 	localCmt := &model.Comment{
 		ThreadId:   threadId,
 		UserName:   cmt.Name,
 		Text:       cmt.Text,
 		TimePosted: cmt.TimePosted,
 		CommentId:  cmtId,
-		Page:       page,
+	}
+	if page <2 {
+		localCmt.Page = 1
+	} else {
+		localCmt.Page = page
 	}
 	return localCmt
 }
