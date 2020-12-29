@@ -8,7 +8,6 @@ import (
 	"gorm.io/gorm"
 	"log"
 	"os"
-	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
@@ -26,7 +25,7 @@ func CrawlThreads(url string, fileName string) {
 		cron.WithLocation(time.UTC),
 		cron.WithChain(cron.SkipIfStillRunning(skipLogger)),
 	)
-	_, _ = c.AddFunc("@every 0h0m10s", func() { // 23h59m GMT +8
+	_, _ = c.AddFunc("@every 0h0m3s", func() { // 23h59m GMT +8
 		config.GetLogger().Info("Running crawler...")
 		VisitAndCollectThreadsFromURL(url, fileName)
 	})
@@ -36,18 +35,18 @@ func CrawlThreads(url string, fileName string) {
 func VisitAndCollectThreadsFromURL(URL string, fileName string) {
 	c := colly.NewCollector()
 
-	basePath := "./text"
-	path := filepath.Join(basePath, fileName)
-	f := createFile(path)
-	defer f.Close()
+	//basePath := "./text"
+	//path := filepath.Join(basePath, fileName)
+	//f := createFile(path)
+	//defer f.Close()
 
 	var titles []string
 	c.OnHTML(global.ThreadTitle, func(e *colly.HTMLElement) {
-		_, err := f.Write([]byte(e.Text))
-		if err != nil {
-			log.Fatal(err)
-		}
-		err = handleThreadContent(e, titles)
+		//_, err := f.Write([]byte(e.Text))
+		//if err != nil {
+		//	log.Fatal(err)
+		//}
+		err := handleThreadContent(e, titles)
 		logger := config.GetLogger()
 		if err != nil {
 			logger.Errorln(err)

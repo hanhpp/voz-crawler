@@ -17,7 +17,7 @@ import (
 )
 
 func CrawlComments(url string, fileName string, threadID uint64) {
-	color.Green("cron job: Crawling comments from %s",url)
+	color.Green("cron job: Crawling comments from %s", url)
 	color.Green("Saving into file /text/%s.txt", fileName)
 	//skipLogger := config.SkipLogger{}
 	//c := cron.New(
@@ -42,12 +42,12 @@ func VisitAndCollectCmtsFromURL(URL string, fileName string, threadID uint64) {
 	var titles []string
 	c.OnHTML(global.CommentStruct, func(e *colly.HTMLElement) {
 		//color.Red("%s", e.Text)
-		_, err := f.Write([]byte(e.Text))
-		if err != nil {
-			log.Fatal(err)
-		}
+		//_, err := f.Write([]byte(e.Text))
+		//if err != nil {
+		//	log.Fatal(err)
+		//}
 		//color.Cyan("%+v", e)
-		err = handleCmtsContent(e, titles, threadID)
+		err := handleCmtsContent(e, titles, threadID)
 		logger := config.GetLogger()
 		if err != nil {
 			logger.Errorln(err)
@@ -71,10 +71,10 @@ func handleCmtsContent(e *colly.HTMLElement, titles []string, threadID uint64) e
 			logger.Errorln(err)
 			return err
 		}
-		color.Green("Comment %d by user %s saved success!", localCmt.CommentId, localCmt.UserName)
+		color.Green("[%d] Comment %d by user %s saved success!", localCmt.ThreadId, localCmt.CommentId, localCmt.UserName)
 		//color.Blue("Content [%s]", localCmt.Text)
 	} else {
-		color.Red("Comment %d by user %s already exists!", localCmt.CommentId,localCmt.UserName)
+		color.Red("Comment %d by user %s already exists!", localCmt.CommentId, localCmt.UserName)
 		//color.Red("Content: \n%s",localCmt.Text)
 		//color.Red("Link : %s", cmt.Link)
 	}
