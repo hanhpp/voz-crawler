@@ -10,6 +10,7 @@ const (
 
 	CommentIDRegex   = "([0-9]\\w+)"
 	CommentStruct    = ".message-userContent"
+	//CommentStruct    = ".message-userContent .bbWrapper"
 	CommentNamespace = "data-lb-caption-desc"
 	CommentId        = "data-lb-id"
 	//TestThread       = "https://voz.vn/t/nsut-thanh-loc-toi-phai-ban-do-trong-nha-de-trang-trai-cuoc-song.196903/"
@@ -40,12 +41,12 @@ var (
 	F17_P3 = utils.AddPageSuffix(F17, 3)
 	F17_P4 = utils.AddPageSuffix(F17, 4)
 	F17_P5 = utils.AddPageSuffix(F17, 5)
-	F17_P6 = utils.AddPageSuffix(F17, 6)
-	F17_P7 = utils.AddPageSuffix(F17, 7)
-	F17_P8 = utils.AddPageSuffix(F17, 8)
-	F17_P9 = utils.AddPageSuffix(F17, 9)
-	F17_P10 = utils.AddPageSuffix(F17, 10)
-	F17_Pages = []string{F17,F17_P2,F17_P3,F17_P4,F17_P5,F17_P6,F17_P7}
+	//F17_P6 = utils.AddPageSuffix(F17, 6)
+	//F17_P7 = utils.AddPageSuffix(F17, 7)
+	//F17_P8 = utils.AddPageSuffix(F17, 8)
+	//F17_P9 = utils.AddPageSuffix(F17, 9)
+	//F17_P10 = utils.AddPageSuffix(F17, 10)
+	F17_Pages = []string{F17,F17_P2,F17_P3,F17_P4,F17_P5}//,F17_P6,F17_P7}
 )
 
 var (

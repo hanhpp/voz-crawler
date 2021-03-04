@@ -21,6 +21,7 @@ func CrawlComments(url string, threadID uint64) {
 	color.Yellow("Crawling comments from %s", url)
 	//Let's crawl from multiple pages
 	localThread := &model.Thread{}
+	//Check if thread existed in database
 	err := entity.GetDBInstance().Model(&model.Thread{}).Where("thread_id = ?", threadID).Find(&localThread).Error
 	if err != nil {
 		logger.Errorln(err)
@@ -35,7 +36,6 @@ func CrawlComments(url string, threadID uint64) {
 
 func VisitAndCollectCommentFromURL(URL string, threadID uint64, page uint64) {
 	c := colly.NewCollector()
-
 	var titles []string
 	c.OnHTML(global.CommentStruct, func(e *colly.HTMLElement) {
 		err := handleCommentContent(e, titles, threadID, page)
@@ -49,7 +49,7 @@ func VisitAndCollectCommentFromURL(URL string, threadID uint64, page uint64) {
 
 func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64, page uint64) error {
 	logger := config.GetLogger()
-	text := standardizeSpaces(e.Text)
+	text := utils.StandardizeSpaces(e.Text)
 	titles = append(titles, text)
 	localCmt := ProcessDesc(e, threadID, page)
 
@@ -66,7 +66,7 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 		logger.WithField("text", localCmt.Text).WithField("threadID", localCmt.ThreadId).
 			WithField("commentId", localCmt.CommentId).WithField("username", localCmt.UserName).
 			Info("Comment saved success!")
-		//color.Blue("Content [%s]", localCmt.Text)
+		color.Blue("Content [%s]", localCmt.Text)
 	} else {
 		//Record existed, so update
 		//TODO check if content is newer or not before update
@@ -119,6 +119,9 @@ func ProcessDesc(e *colly.HTMLElement, threadId uint64, page uint64) *model.Comm
 	} else {
 		color.Red("Res len is not 2 but %d", len(res))
 	}
+
+	//Remove spaces in comments texts
+	cmt.Text = 	utils.RemoveRedundantSpaces(cmt.Text)
 
 	localCmt := &model.Comment{
 		ThreadId:   threadId,

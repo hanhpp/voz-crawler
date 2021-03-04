@@ -10,8 +10,6 @@ import (
 	"os"
 	"regexp"
 	"strconv"
-	"strings"
-	"time"
 	"voz/config"
 	"voz/entity"
 	"voz/global"
@@ -19,15 +17,13 @@ import (
 	"voz/utils"
 )
 
-func CrawlThreads(url string, fileName string) {
+func CrawlThreads(url string) {
 	color.Green("Crawling thread from [%s]", url)
 	skipLogger := config.SkipLogger{}
 	c := cron.New(
-		cron.WithLocation(time.UTC),
 		cron.WithChain(cron.SkipIfStillRunning(skipLogger)),
 	)
 	_, _ = c.AddFunc(utils.GetCronString(global.CrawlInterval), func() {
-		//config.GetLogger().Info("Running crawler...")
 		VisitAndCollectThreadsFromURL(url)
 	})
 	c.Start()
@@ -44,21 +40,12 @@ func VisitAndCollectThreadsFromURL(URL string) {
 			logger.Errorln(err)
 		}
 	})
-	//c.OnHTML(".structItem",func(e *colly.HTMLElement) {
-	//	color.Red("%+v",e)
-	//	rd := &entity.Random{}
-	//	err := e.Unmarshal(rd)
-	//	if err != nil {
-	//		log.Fatal(err)
-	//	}
-	//	color.Red("Parsed \n%+v",rd)
-	//})
 	_ = c.Visit(URL)
 }
 
 func handleThreadContent(e *colly.HTMLElement, titles []string, parentURL string) error {
 	logger := config.GetLogger()
-	text := standardizeSpaces(e.Text)
+	text := utils.StandardizeSpaces(e.Text)
 	titles = append(titles, text)
 	//color.Blue("%+v", e)
 	thread := &entity.Thread{}
@@ -92,7 +79,13 @@ func handleThreadContent(e *colly.HTMLElement, titles []string, parentURL string
 		color.Red("Pushing to Thread queue\n%+v", newThread)
 		Threads <- newThread
 	} else {
-		logger.WithField(" threadId", threadId).WithField("thread.Link", thread.Link).Info("Thread already exists!")
+		//logger.WithField(" threadId", threadId).WithField("thread.Link", thread.Link).Info("Thread already exists!")
+		//If thread already exists, check if last page is higher than database last page
+		color.Green("[%d]local last page vs remote : %d ? %d\n%s",newThread.ThreadId,newThread.LastPage,localThread.LastPage,newThread.Link)
+		if newThread.LastPage > localThread.LastPage {
+			color.Red("Local thread's comments outdated, proceed to update comments... (%d < %d)",localThread.LastPage,newThread.LastPage)
+			Threads <- newThread
+		}
 	}
 	return nil
 }
@@ -132,11 +125,6 @@ func GetThreadID(link string) uint64 {
 	return 0
 }
 
-//standardizeSpaces remove redundancies spaces
-func standardizeSpaces(s string) string {
-	//fields return splitted array of chars if function satisfy
-	return strings.Join(strings.Fields(s), " ")
-}
 
 func createFile(name string) *os.File {
 	f, err := os.Create(name + ".txt")
