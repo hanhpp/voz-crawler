@@ -33,7 +33,7 @@ const (
 
 const (
 	//10 second
-	CrawlInterval uint64 = 10
+	CrawlInterval uint64 = 5
 )
 var (
 	//F17_P2 = utils.AddPageSuffix(F17, 2)
