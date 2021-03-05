@@ -75,7 +75,9 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 			logger.Errorln(err)
 			return err
 		}
-		if strings.Contains(localCmt.Text, "The requested content cannot be loaded") {
+		containsRes := strings.Contains(localCmt.Text, "The requested content cannot be loaded")
+		if containsRes {
+			color.Red("%s %v",localCmt.Text,containsRes)
 			color.Red("Found deleted thread! %d", localCmt.ThreadId)
 			localThread := &model.Thread{}
 			err := entity.GetDBInstance().Debug().Where("thread_id = ?", localCmt.ThreadId).Find(&localThread).Error
@@ -89,7 +91,27 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 				logger.Errorln(err)
 				return err
 			}
-			logger.Infof("Found deleted thread! %d",localCmt.ThreadId)
+			logger.Infof("Found deleted thread! %d", localCmt.ThreadId)
+		} else {
+			//Is thread found in deleted thread ?
+			deletedThread := &model.DeletedThread{}
+			err := entity.GetDBInstance().Where("thread_id = ?", localCmt.ThreadId).Find(&deletedThread).Error
+			if err != nil {
+				if !errors.Is(err,gorm.ErrRecordNotFound) {
+					logger.Errorln(err)
+					return err
+				}
+				//Record not found, thread exists and not in deleted, good to go
+			}
+			//Record exists, but found in deleted, wrong case, proceed to delete in deleted
+			//Do hard delete
+			if deletedThread.ThreadId > 0 {
+				err = entity.GetDBInstance().Debug().Unscoped().Where("thread_id = ?",localCmt.ThreadId).Delete(&model.DeletedThread{}).Error
+				if err != nil {
+					logger.Errorln(err)
+					return err
+				}
+			}
 		}
 	}
 	return nil

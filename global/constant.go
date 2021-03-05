@@ -1,7 +1,5 @@
 package global
 
-import "voz/utils"
-
 const (
 	VozBaseURL    = "https://voz.vn"
 	ThreadLink    = ".structItem-minor .structItem-parts"
@@ -38,18 +36,18 @@ const (
 	CrawlInterval uint64 = 10
 )
 var (
-	F17_P2 = utils.AddPageSuffix(F17, 2)
-	F17_P3 = utils.AddPageSuffix(F17, 3)
-	F17_P4 = utils.AddPageSuffix(F17, 4)
-	F17_P5 = utils.AddPageSuffix(F17, 5)
-	F17_Pages = []string{F17,F17_P2,F17_P3,F17_P4,F17_P5}
+	//F17_P2 = utils.AddPageSuffix(F17, 2)
+	//F17_P3 = utils.AddPageSuffix(F17, 3)
+	//F17_P4 = utils.AddPageSuffix(F17, 4)
+	//F17_P5 = utils.AddPageSuffix(F17, 5)
+	F17_Pages = []string{F17}//,F17_P2,F17_P3}//,F17_P4,F17_P5}
 )
 
 var (
-	F33_P2 = utils.AddPageSuffix(F33, 2)
-	F33_P3 = utils.AddPageSuffix(F33, 3)
-	F33_P4 = utils.AddPageSuffix(F33, 4)
-	F33_P5 = utils.AddPageSuffix(F33, 5)
-	F33_Pages = []string{F33,F33_P2,F33_P3,F33_P4,F33_P5}
+	//F33_P2 = utils.AddPageSuffix(F33, 2)
+	//F33_P3 = utils.AddPageSuffix(F33, 3)
+	//F33_P4 = utils.AddPageSuffix(F33, 4)
+	//F33_P5 = utils.AddPageSuffix(F33, 5)
+	F33_Pages = []string{F33}//,F33_P2,F33_P3}//,F33_P4,F33_P5}
 )
 
