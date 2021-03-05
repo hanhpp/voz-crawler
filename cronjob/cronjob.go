@@ -87,7 +87,7 @@ func CommentLoop() {
 		case thread := <-Threads:
 			go func() {
 				color.Red("Received %s from Thread queue", thread.Link)
-				CrawlComments(thread.Link, thread.ThreadId)
+				CrawlComments(thread)
 			}()
 		}
 	}

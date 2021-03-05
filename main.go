@@ -9,13 +9,13 @@ import (
 	"voz/global"
 )
 
-const Version = 1.1
+const Version string = "1.1"
 func main() {
 	global.FetchEnvironmentVariables()
 	entity.InitializeDatabaseConnection()
 	entity.ProcessMigration()
 
-	color.Blue("Starting voz crawler version %d",Version)
+	color.Blue("Starting voz crawler version %s",Version)
 	var wg sync.WaitGroup
 	wg.Add(1)
 	cronjob.RunCronjob()

@@ -16,18 +16,27 @@ import (
 	"voz/utils"
 )
 
-func CrawlComments(url string, threadID uint64) {
+func CrawlComments(thread *model.Thread) {
+	url := thread.Link
+	threadID := thread.ThreadId
+	lastPage := thread.LastPage
 	logger := config.GetLogger()
 	color.Yellow("Crawling comments from %s", url)
 	//Let's crawl from multiple pages
 	localThread := &model.Thread{}
 	//Check if thread existed in database
-	err := entity.GetDBInstance().Model(&model.Thread{}).Where("thread_id = ?", threadID).Find(&localThread).Error
+	err := entity.GetDBInstance().Where("thread_id = ?", threadID).Find(&localThread).Error
 	if err != nil {
 		logger.Errorln(err)
 		return
 	}
-	lastPage := localThread.LastPage
+	//Update new last page
+	localThread.LastPage = lastPage
+	err = entity.GetDBInstance().Debug().Save(&localThread).Error
+	if err != nil {
+		logger.Errorln(err)
+		return
+	}
 	for i := global.MinPage; i <= lastPage; i++ {
 		newURL := utils.AddPageSuffix(url, i)
 		VisitAndCollectCommentFromURL(newURL, threadID, i)

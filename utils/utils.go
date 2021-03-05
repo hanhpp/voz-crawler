@@ -34,7 +34,7 @@ func RemoveRedundantSpaces(str string) string {
 	re_inside_whtsp := regexp.MustCompile(`[\s\p{Zs}]{2,}`)
 	final := re_leadclose_whtsp.ReplaceAllString(str, "")
 	final = re_inside_whtsp.ReplaceAllString(final, " ")
-	fmt.Println(final)
+	//fmt.Println(final)
 	return final
 }
 
