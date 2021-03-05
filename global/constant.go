@@ -6,6 +6,7 @@ const (
 	VozBaseURL    = "https://voz.vn"
 	ThreadLink    = ".structItem-minor .structItem-parts"
 	ThreadTitle   = ".structItem-title"
+	ThreadStruct = ".structItem.structItem--thread"
 	ThreadIDRegex = "(.[0-9]\\w+/)"
 
 	CommentIDRegex   = "([0-9]\\w+)"
@@ -41,12 +42,7 @@ var (
 	F17_P3 = utils.AddPageSuffix(F17, 3)
 	F17_P4 = utils.AddPageSuffix(F17, 4)
 	F17_P5 = utils.AddPageSuffix(F17, 5)
-	//F17_P6 = utils.AddPageSuffix(F17, 6)
-	//F17_P7 = utils.AddPageSuffix(F17, 7)
-	//F17_P8 = utils.AddPageSuffix(F17, 8)
-	//F17_P9 = utils.AddPageSuffix(F17, 9)
-	//F17_P10 = utils.AddPageSuffix(F17, 10)
-	F17_Pages = []string{F17,F17_P2,F17_P3,F17_P4,F17_P5}//,F17_P6,F17_P7}
+	F17_Pages = []string{F17,F17_P2,F17_P3,F17_P4,F17_P5}
 )
 
 var (
@@ -54,8 +50,6 @@ var (
 	F33_P3 = utils.AddPageSuffix(F33, 3)
 	F33_P4 = utils.AddPageSuffix(F33, 4)
 	F33_P5 = utils.AddPageSuffix(F33, 5)
-	F33_P6 = utils.AddPageSuffix(F33, 6)
-	F33_P7 = utils.AddPageSuffix(F33, 7)
-	F33_Pages = []string{F33,F33_P2,F33_P3,F33_P4,F33_P5,F33_P6,F33_P7}
+	F33_Pages = []string{F33,F33_P2,F33_P3,F33_P4,F33_P5}
 )
 

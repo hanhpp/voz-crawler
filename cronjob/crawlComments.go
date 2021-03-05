@@ -63,9 +63,9 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 			return err
 		}
 		color.Green("[%d] Comment %d by user %s saved success!", localCmt.ThreadId, localCmt.CommentId, localCmt.UserName)
-		logger.WithField("text", localCmt.Text).WithField("threadID", localCmt.ThreadId).
-			WithField("commentId", localCmt.CommentId).WithField("username", localCmt.UserName).
-			Info("Comment saved success!")
+		//logger.WithField("text", localCmt.Text).WithField("threadID", localCmt.ThreadId).
+		//	WithField("commentId", localCmt.CommentId).WithField("username", localCmt.UserName).
+		//	Info("Comment saved success!")
 		color.Blue("Content [%s]", localCmt.Text)
 	} else {
 		//Record existed, so update
@@ -75,11 +75,30 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 			logger.Errorln(err)
 			return err
 		}
-		//color.Red("Comment %d by user %s already exists!", localCmt.CommentId, localCmt.UserName)
-		//color.Red("Content: \n%s",localCmt.Text)
-		//color.Red("Link : %s", cmt.Link)
+		if strings.Contains(localCmt.Text, "The requested content cannot be loaded") {
+			color.Red("Found deleted thread! %d", localCmt.ThreadId)
+			localThread := &model.Thread{}
+			err := entity.GetDBInstance().Debug().Where("thread_id = ?", localCmt.ThreadId).Find(&localThread).Error
+			if err != nil {
+				logger.Errorln(err)
+				return err
+			}
+			deletedThread := createDeletedThread(*localThread)
+			err = entity.GetDBInstance().Debug().Save(&deletedThread).Error
+			if err != nil {
+				logger.Errorln(err)
+				return err
+			}
+			logger.Infof("Found deleted thread! %d",localCmt.ThreadId)
+		}
 	}
 	return nil
+}
+
+func createDeletedThread(thr model.Thread) *model.DeletedThread {
+	return &model.DeletedThread{
+		thr,
+	}
 }
 
 func GetCmtId(cmtId string) string {
@@ -121,7 +140,7 @@ func ProcessDesc(e *colly.HTMLElement, threadId uint64, page uint64) *model.Comm
 	}
 
 	//Remove spaces in comments texts
-	cmt.Text = 	utils.RemoveRedundantSpaces(cmt.Text)
+	cmt.Text = utils.RemoveRedundantSpaces(cmt.Text)
 
 	localCmt := &model.Comment{
 		ThreadId:   threadId,

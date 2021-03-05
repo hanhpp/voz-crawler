@@ -5,6 +5,8 @@ import (
 	"github.com/fatih/color"
 	"sync"
 	"time"
+	"voz/config"
+	"voz/entity"
 	"voz/global"
 	"voz/model"
 )
@@ -14,21 +16,8 @@ var Threads = make(chan *model.Thread,100)
 func RunCronjob() {
 	go ThreadTicker()
 	go CommentLoop()
-	go UpdateLocalThread()
 }
 //go CrawlThreads(global.F33, "diem-bao")
-func CrawlThreadsFromF17() {
-	go CrawlThreads(global.F17)
-	go CrawlThreads(global.F17_P2)
-	go CrawlThreads(global.F17_P3)
-	go CrawlThreads(global.F17_P4)
-	go CrawlThreads(global.F17_P5)
-	//go CrawlThreads(global.F17_P6, "chuyen-tro-linh-tinh")
-	//go CrawlThreads(global.F17_P7, "chuyen-tro-linh-tinh")
-	//go CrawlThreads(global.F17_P8, "chuyen-tro-linh-tinh")
-	//go CrawlThreads(global.F17_P9, "chuyen-tro-linh-tinh")
-	//go CrawlThreads(global.F17_P10, "chuyen-tro-linh-tinh")
-}
 
 func CrawlThreadFromUrl(urls []string) {
 	var wg sync.WaitGroup
@@ -53,6 +42,7 @@ func ThreadTicker() {
 			case t := <-ticker.C:
 				fmt.Println("Tick at", t)
 				CrawlThreadFromUrl(global.F17_Pages)
+				//CrawlThreadFromUrl(global.F33_Pages)
 			}
 		}
 	}()
@@ -67,5 +57,28 @@ func CommentLoop() {
 				CrawlComments(thread.Link, thread.ThreadId)
 			}()
 		}
+	}
+}
+
+func UpdateLocalThread() {
+	logger := config.GetLogger()
+	localThreads := []model.Thread{}
+	err := entity.GetDBInstance().Model(&model.Thread{}).Find(&localThreads).Error
+	if err != nil {
+		logger.Errorln(err)
+		return
+	}
+	l := len(localThreads)
+	if l < 2 {
+		return
+	}
+	color.Red("Found %d threads",l)
+	color.Cyan("First thread : \n%+v",localThreads[0])
+	color.Cyan("Last thread : \n%+v",localThreads[l-1])
+	for _,v := range localThreads {
+		//Push into it again to update
+		go func() {
+			Threads <- &v
+		}()
 	}
 }

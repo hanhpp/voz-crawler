@@ -31,9 +31,8 @@ func CrawlThreads(url string) {
 
 func VisitAndCollectThreadsFromURL(URL string) {
 	c := colly.NewCollector()
-
 	var titles []string
-	c.OnHTML(global.ThreadTitle, func(e *colly.HTMLElement) {
+	c.OnHTML(global.ThreadStruct, func(e *colly.HTMLElement) {
 		err := handleThreadContent(e, titles, URL)
 		logger := config.GetLogger()
 		if err != nil {
@@ -84,6 +83,7 @@ func handleThreadContent(e *colly.HTMLElement, titles []string, parentURL string
 		color.Green("[%d]local last page vs remote : %d ? %d\n%s",newThread.ThreadId,newThread.LastPage,localThread.LastPage,newThread.Link)
 		if newThread.LastPage > localThread.LastPage {
 			color.Red("Local thread's comments outdated, proceed to update comments... (%d < %d)",localThread.LastPage,newThread.LastPage)
+			//LastPage is higher, proceed to push thread to queue
 			Threads <- newThread
 		}
 	}
