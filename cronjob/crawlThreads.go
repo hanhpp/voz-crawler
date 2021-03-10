@@ -80,7 +80,8 @@ func handleThreadContent(e *colly.HTMLElement, titles []string, parentURL string
 	} else {
 		//logger.WithField(" threadId", threadId).WithField("thread.Link", thread.Link).Info("Thread already exists!")
 		//If thread already exists, check if last page is higher than database last page
-		color.Green("[%d]local last page vs remote : %d ? %d\n%s",newThread.ThreadId,localThread.LastPage,newThread.LastPage,newThread.Link)
+		//color.Green("[%d]local last page vs remote : %d ? %d\n%s",newThread.ThreadId,localThread.LastPage,newThread.LastPage,newThread.Link)
+		color.Cyan("%s [%d]",newThread.Link,newThread.LastPage)
 		if newThread.LastPage > localThread.LastPage {
 			color.Red("Local thread's comments outdated, proceed to update comments... (%d < %d)",localThread.LastPage,newThread.LastPage)
 			//LastPage is higher, proceed to push thread to queue
