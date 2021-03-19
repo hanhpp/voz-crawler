@@ -75,7 +75,7 @@ func handleCommentContent(e *colly.HTMLElement, titles []string, threadID uint64
 		//logger.WithField("text", localCmt.Text).WithField("threadID", localCmt.ThreadId).
 		//	WithField("commentId", localCmt.CommentId).WithField("username", localCmt.UserName).
 		//	Info("Comment saved success!")
-		color.Blue("Content [%s]", localCmt.Text)
+		color.Cyan("Content [%s]", localCmt.Text)
 	} else {
 		//Record existed, so update
 		//TODO check if content is newer or not before update

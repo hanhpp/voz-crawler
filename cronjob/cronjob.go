@@ -75,7 +75,7 @@ func ThreadTicker() {
 			case t := <-ticker.C:
 				fmt.Println("Tick at", t)
 				CrawlThreadFromUrl(global.F17_Pages)
-				//CrawlThreadFromUrl(global.F33_Pages)
+				CrawlThreadFromUrl(global.F33_Pages)
 			}
 		}
 	}()
