@@ -2,6 +2,8 @@ package utils
 
 import (
 	"fmt"
+	"github.com/gin-gonic/gin"
+	"net/http"
 	"regexp"
 	"strings"
 )
@@ -42,4 +44,40 @@ func RemoveRedundantSpaces(str string) string {
 func StandardizeSpaces(s string) string {
 	//fields return splitted array of chars if function satisfy
 	return strings.Join(strings.Fields(s), " ")
+}
+
+
+func BadRequest(c *gin.Context) {
+	c.JSON(http.StatusBadRequest, gin.H{"message": "bad request"})
+}
+
+func BadRequestWithMessage(c *gin.Context, msg string) {
+	c.JSON(http.StatusBadRequest, gin.H{"message": msg})
+}
+
+func InternalServerError(c *gin.Context) {
+	c.JSON(http.StatusBadRequest, gin.H{"message": "internal server error"})
+}
+
+func InternalServerErrorMsg(c *gin.Context, msg string) {
+	c.JSON(http.StatusBadRequest, gin.H{"message": msg})
+}
+func Ok(c *gin.Context, msg gin.H) {
+	c.JSON(http.StatusOK, msg)
+}
+
+func OkMsg(c *gin.Context, msg string) {
+	c.JSON(http.StatusOK, gin.H{"message": msg})
+}
+
+func UnauthorizedMsg(c *gin.Context, msg string) {
+	c.JSON(http.StatusUnauthorized, gin.H{"message": msg})
+}
+
+func BadReqWithDetail(c *gin.Context,detail string) {
+	c.JSON(http.StatusBadRequest, gin.H{
+		"status_code": http.StatusBadRequest,
+		"error_code":  400,
+		"detail":      detail,
+	})
 }
