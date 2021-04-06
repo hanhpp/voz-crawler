@@ -11,7 +11,9 @@ const App = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Body styles={styles}></Body>
+      <Body styles={styles}>
+          <p>Hello</p>
+      </Body>
 
       <Footer className={styles.footer}></Footer>
     </div>

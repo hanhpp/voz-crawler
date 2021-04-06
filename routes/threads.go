@@ -10,8 +10,8 @@ import (
 )
 
 func InitThreadRoutes(route *gin.Engine) {
-	route.GET("/thread", Threads)
-	route.GET("/thread/:id",ThreadByThreadId)
+	route.GET("/threads", Threads)
+	route.GET("/threads/:id",ThreadByThreadId)
 }
 
 func Threads(c *gin.Context) {

@@ -10,9 +10,9 @@ import (
 )
 
 func InitCommentRoutes(route *gin.Engine) {
-	route.GET("/comment", Comments)
-	route.GET("/comment/:id", CommentById)
-	route.GET("/comments/thread/:id", CommentsByThreadId)
+	route.GET("/comments", Comments)
+	route.GET("/comments/:id", CommentById)
+	route.GET("/thread-comments/:id", CommentsByThreadId)
 }
 
 func Comments(c *gin.Context) {
